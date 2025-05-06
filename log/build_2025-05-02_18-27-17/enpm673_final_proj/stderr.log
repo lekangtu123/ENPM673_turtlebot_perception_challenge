@@ -1,0 +1,68 @@
+[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:11 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:441 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPkgConfig.cmake:114 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:24 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)
+  /usr/share/dart/cmake/DARTConfig.cmake:63 (include)
+  /usr/share/dart/cmake/DARTConfig.cmake:123 (dart_traverse_components)
+  /usr/share/dart/cmake/DARTConfig.cmake:171 (dart_package_init)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)
+  CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+  CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+  CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

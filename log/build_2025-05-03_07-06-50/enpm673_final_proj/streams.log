@@ -1,0 +1,63 @@
+[0.016s] Invoking command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj -- -j8 -l8
+[0.091s] [ 50%] Built target cpp_enpm673_final_proj
+[0.093s] [ 50%] Built target ament_cmake_python_symlink_enpm673_module
+[0.105s] [100%] Built target animated_box
+[0.324s] running egg_info
+[0.325s] writing enpm673_module.egg-info/PKG-INFO
+[0.325s] writing dependency_links to enpm673_module.egg-info/dependency_links.txt
+[0.326s] writing top-level names to enpm673_module.egg-info/top_level.txt
+[0.363s] reading manifest file 'enpm673_module.egg-info/SOURCES.txt'
+[0.363s] writing manifest file 'enpm673_module.egg-info/SOURCES.txt'
+[0.395s] [100%] Built target ament_cmake_python_build_enpm673_module_egg
+[0.414s] Invoked command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj -- -j8 -l8
+[0.576s] Invoking command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj
+[0.627s] -- Install configuration: ""
+[0.628s] -- Execute custom install script
+[0.628s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/enpm673_final_proj/cpp_enpm673_final_proj
+[0.628s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/environment/pythonpath.sh
+[0.628s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/environment/pythonpath.dsv
+[0.629s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/PKG-INFO
+[0.629s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/SOURCES.txt
+[0.629s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/dependency_links.txt
+[0.629s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/top_level.txt
+[0.629s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/__init__.py
+[0.629s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/enpm673_final_proj.py
+[0.629s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/enpm673_final_proj/enpm673_final_proj_main.py
+[0.629s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/launch//enpm673_world.launch.py
+[0.630s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/enpm673_final_proj/libanimated_box.so
+[0.630s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/worlds//enpm673.world
+[0.630s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/worlds//animated_box.world
+[0.631s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/aruco_marker/materials/scripts/marker.material
+[0.631s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/aruco_marker/materials/textures/marker.png
+[0.631s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/aruco_marker/model.config
+[0.631s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/aruco_marker/model.sdf
+[0.631s] -- Symlinking: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/best.pt
+[0.635s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/checkerboard_6_8_0_03/checkerboard.sdf
+[0.636s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/checkerboard_6_8_0_03/model.config
+[0.636s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/floor_tile/model.config
+[0.636s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/floor_tile/model.sdf
+[0.636s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/lane_markings/model.config
+[0.636s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/lane_markings/model.sdf
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/paper_letter_size/model.config
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/paper_letter_size/model.sdf
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/textured_floor/model.config
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/textured_floor/model.sdf
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/umd_turtlebot3_waffle_pi/model.config
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj//models/umd_turtlebot3_waffle_pi/model.sdf
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/ament_index/resource_index/package_run_dependencies/enpm673_final_proj
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/ament_index/resource_index/parent_prefix_path/enpm673_final_proj
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/environment/ament_prefix_path.sh
+[0.637s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/environment/ament_prefix_path.dsv
+[0.638s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/environment/path.sh
+[0.638s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/environment/path.dsv
+[0.638s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.bash
+[0.638s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.sh
+[0.638s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.zsh
+[0.638s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.dsv
+[0.638s] -- Symlinking: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.dsv
+[0.641s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/ament_index/resource_index/packages/enpm673_final_proj
+[0.641s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/cmake/enpm673_final_projConfig.cmake
+[0.641s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/cmake/enpm673_final_projConfig-version.cmake
+[0.641s] -- Up-to-date symlink: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.xml
+[0.666s] Listing '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module'...
+[0.684s] Invoked command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj

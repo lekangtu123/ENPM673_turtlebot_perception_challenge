@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libanimated_box.so -o libanimated_box.so CMakeFiles/animated_box.dir/src/animated_box.cpp.o   -L/usr/lib/x86_64-linux-gnu/gazebo-11/plugins

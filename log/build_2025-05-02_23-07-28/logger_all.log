@@ -1,0 +1,150 @@
+[0.917s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'enpm673_final_proj']
+[0.917s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc60820b610>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['enpm673_final_proj'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc60820b610>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc60820ba00>)
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.158s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(enpm673_final_proj) by extensions ['ignore', 'ignore_ament_install']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(enpm673_final_proj) by extension 'ignore'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(enpm673_final_proj) by extension 'ignore_ament_install'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(enpm673_final_proj) by extensions ['colcon_pkg']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(enpm673_final_proj) by extension 'colcon_pkg'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(enpm673_final_proj) by extensions ['colcon_meta']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(enpm673_final_proj) by extension 'colcon_meta'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(enpm673_final_proj) by extensions ['ros']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(enpm673_final_proj) by extension 'ros'
+[1.181s] DEBUG:colcon.colcon_core.package_identification:Package 'enpm673_final_proj' with type 'ros.ament_cmake' and name 'enpm673_final_proj'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['ignore', 'ignore_ament_install']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'ignore'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'ignore_ament_install'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['colcon_pkg']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'colcon_pkg'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['colcon_meta']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'colcon_meta'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['ros']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'ros'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['cmake', 'python']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'cmake'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'python'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extensions ['python_setup_py']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(screenshots) by extension 'python_setup_py'
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 350 installed packages in /opt/ros/galactic
+[1.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.359s] Level 5:colcon.colcon_core.verb:set package 'enpm673_final_proj' build argument 'cmake_args' from command line to 'None'
+[1.359s] Level 5:colcon.colcon_core.verb:set package 'enpm673_final_proj' build argument 'cmake_target' from command line to 'None'
+[1.359s] Level 5:colcon.colcon_core.verb:set package 'enpm673_final_proj' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.359s] Level 5:colcon.colcon_core.verb:set package 'enpm673_final_proj' build argument 'cmake_clean_cache' from command line to 'False'
+[1.359s] Level 5:colcon.colcon_core.verb:set package 'enpm673_final_proj' build argument 'cmake_clean_first' from command line to 'False'
+[1.359s] Level 5:colcon.colcon_core.verb:set package 'enpm673_final_proj' build argument 'cmake_force_configure' from command line to 'False'
+[1.359s] Level 5:colcon.colcon_core.verb:set package 'enpm673_final_proj' build argument 'ament_cmake_args' from command line to 'None'
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'enpm673_final_proj' build argument 'catkin_cmake_args' from command line to 'None'
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'enpm673_final_proj' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.360s] DEBUG:colcon.colcon_core.verb:Building package 'enpm673_final_proj' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj', 'merge_install': False, 'path': '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj', 'symlink_install': True, 'test_result_base': None}
+[1.360s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.361s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj' with build type 'ament_cmake'
+[1.362s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj'
+[1.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj
+[3.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj
+[3.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj -- -j8 -l8
+[3.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj -- -j8 -l8
+[3.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj
+[3.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(enpm673_final_proj)
+[3.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj' for CMake module files
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj' for CMake config files
+[3.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('enpm673_final_proj', 'cmake_prefix_path')
+[3.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/cmake_prefix_path.ps1'
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/cmake_prefix_path.dsv'
+[3.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/cmake_prefix_path.sh'
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib'
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/bin'
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/pkgconfig/enpm673_final_proj.pc'
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/python3.8/site-packages'
+[3.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('enpm673_final_proj', 'pythonpath')
+[3.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/pythonpath.ps1'
+[3.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/pythonpath.dsv'
+[3.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/pythonpath.sh'
+[3.993s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/bin'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.ps1'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.dsv'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.sh'
+[3.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.bash'
+[3.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.zsh'
+[4.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/colcon-core/packages/enpm673_final_proj)
+[4.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(enpm673_final_proj)
+[4.088s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj' for CMake module files
+[4.088s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj' for CMake config files
+[4.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('enpm673_final_proj', 'cmake_prefix_path')
+[4.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/cmake_prefix_path.ps1'
+[4.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/cmake_prefix_path.dsv'
+[4.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/cmake_prefix_path.sh'
+[4.091s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib'
+[4.091s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/bin'
+[4.091s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/pkgconfig/enpm673_final_proj.pc'
+[4.091s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/lib/python3.8/site-packages'
+[4.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('enpm673_final_proj', 'pythonpath')
+[4.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/pythonpath.ps1'
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/pythonpath.dsv'
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/hook/pythonpath.sh'
+[4.093s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/bin'
+[4.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.ps1'
+[4.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.dsv'
+[4.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.sh'
+[4.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.bash'
+[4.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/enpm673_final_proj/package.zsh'
+[4.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj/share/colcon-core/packages/enpm673_final_proj)
+[4.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.098s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.106s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.125s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/local_setup.ps1'
+[4.127s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/_local_setup_util_ps1.py'
+[4.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/setup.ps1'
+[4.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/local_setup.sh'
+[4.132s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/_local_setup_util_sh.py'
+[4.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/setup.sh'
+[4.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/local_setup.bash'
+[4.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/setup.bash'
+[4.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/local_setup.zsh'
+[4.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/setup.zsh'

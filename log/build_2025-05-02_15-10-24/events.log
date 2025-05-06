@@ -1,0 +1,1004 @@
+[0.000000] (-) TimerEvent: {}
+[0.000584] (enpm673_final_proj) JobQueued: {'identifier': 'enpm673_final_proj', 'dependencies': OrderedDict()}
+[0.001048] (enpm673_final_proj) JobStarted: {'identifier': 'enpm673_final_proj'}
+[0.017697] (enpm673_final_proj) JobProgress: {'identifier': 'enpm673_final_proj', 'progress': 'cmake'}
+[0.018314] (enpm673_final_proj) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj'], 'cwd': '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '2014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1913'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b3984497af4d44736d47b3168153e3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:61925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/leoo/.gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2049,unix/ubuntu:/tmp/.ICE-unix/2049'), ('INVOCATION_ID', 'b2963a75ad7047ea873a8edcd9f63537'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f7ac0aa_ba17_4ef3_b5f3_04eda63adf9e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b3984497af4d44736d47b3168153e3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099713] (-) TimerEvent: {}
+[0.200180] (-) TimerEvent: {}
+[0.219214] (enpm673_final_proj) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300392] (-) TimerEvent: {}
+[0.325335] (enpm673_final_proj) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.356030] (enpm673_final_proj) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401949] (-) TimerEvent: {}
+[0.437761] (enpm673_final_proj) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.453555] (enpm673_final_proj) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.454827] (enpm673_final_proj) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.456035] (enpm673_final_proj) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.462771] (enpm673_final_proj) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.502340] (-) TimerEvent: {}
+[0.531691] (enpm673_final_proj) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.549956] (enpm673_final_proj) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.550895] (enpm673_final_proj) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.551416] (enpm673_final_proj) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.567692] (enpm673_final_proj) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.580929] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.581176] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.581248] (enpm673_final_proj) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.581294] (enpm673_final_proj) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.581370] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[0.581417] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.581461] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.581505] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.581549] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.581597] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.581645] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.581689] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.581733] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.581777] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[0.601411] (enpm673_final_proj) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")\n'}
+[0.601579] (enpm673_final_proj) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.602608] (-) TimerEvent: {}
+[0.669108] (enpm673_final_proj) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.702783] (-) TimerEvent: {}
+[0.733498] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.802988] (-) TimerEvent: {}
+[0.847457] (enpm673_final_proj) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.864331] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.903222] (-) TimerEvent: {}
+[0.981538] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[1.003403] (-) TimerEvent: {}
+[1.019117] (enpm673_final_proj) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include\n'}
+[1.103745] (-) TimerEvent: {}
+[1.140532] (enpm673_final_proj) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.204131] (-) TimerEvent: {}
+[1.250025] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.256569] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.289824] (enpm673_final_proj) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.293603] (enpm673_final_proj) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.304377] (-) TimerEvent: {}
+[1.354762] (enpm673_final_proj) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.355163] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.404662] (-) TimerEvent: {}
+[1.406841] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.407044] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.463327] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.464528] (enpm673_final_proj) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.504936] (-) TimerEvent: {}
+[1.606015] (-) TimerEvent: {}
+[1.667613] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)\n'}
+[1.679552] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:441 (message):\n'}
+[1.679718] (enpm673_final_proj) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[1.679771] (enpm673_final_proj) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[1.679815] (enpm673_final_proj) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[1.679870] (enpm673_final_proj) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[1.679913] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.679956] (enpm673_final_proj) StderrLine: {'line': b'  /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPkgConfig.cmake:114 (find_package_handle_standard_args)\n'}
+[1.680000] (enpm673_final_proj) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[1.680043] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[1.680090] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.680132] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[1.680175] (enpm673_final_proj) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")\n'}
+[1.681182] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.698556] (enpm673_final_proj) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.706305] (-) TimerEvent: {}
+[1.806903] (-) TimerEvent: {}
+[1.848138] (enpm673_final_proj) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0")\n'}
+[1.907495] (-) TimerEvent: {}
+[1.921001] (enpm673_final_proj) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2")\n'}
+[1.995842] (enpm673_final_proj) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0")\n'}
+[1.997102] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:24 (find_package):\n'}
+[1.997270] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.997324] (enpm673_final_proj) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.997375] (enpm673_final_proj) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.997424] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[1.997468] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.997510] (enpm673_final_proj) StderrLine: {'line': b'  /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)\n'}
+[1.997553] (enpm673_final_proj) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:63 (include)\n'}
+[1.997595] (enpm673_final_proj) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:123 (dart_traverse_components)\n'}
+[1.997638] (enpm673_final_proj) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:171 (dart_package_init)\n'}
+[1.997680] (enpm673_final_proj) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)\n'}
+[1.997724] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[1.997767] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.997809] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[2.007864] (-) TimerEvent: {}
+[2.042216] (enpm673_final_proj) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart\n'}
+[2.053266] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):\n'}
+[2.053427] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[2.053480] (enpm673_final_proj) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[2.053528] (enpm673_final_proj) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[2.053571] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[2.053613] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.053656] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[2.053701] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.053746] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[2.087417] (enpm673_final_proj) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time\n'}
+[2.108109] (-) TimerEvent: {}
+[2.123321] (enpm673_final_proj) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1")\n'}
+[2.133050] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.150801] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.155636] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.156086] (enpm673_final_proj) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.161097] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.180694] (enpm673_final_proj) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.208565] (-) TimerEvent: {}
+[2.231156] (enpm673_final_proj) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.245477] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.246180] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):\n'}
+[2.246423] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[2.246529] (enpm673_final_proj) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[2.246703] (enpm673_final_proj) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[2.246807] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[2.246890] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.246936] (enpm673_final_proj) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[2.246979] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[2.247022] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.247115] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[2.251334] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):\n'}
+[2.251585] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[2.251692] (enpm673_final_proj) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[2.251791] (enpm673_final_proj) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[2.251906] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[2.252001] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.252096] (enpm673_final_proj) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[2.252190] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[2.252285] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.252379] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[2.256095] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.267898] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.268160] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.280040] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.280187] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.290803] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.291037] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.300702] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.300936] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.309127] (-) TimerEvent: {}
+[2.311581] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.311904] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.321953] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.409988] (-) TimerEvent: {}
+[2.511055] (-) TimerEvent: {}
+[2.522605] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.527651] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[2.528298] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.547250] (enpm673_final_proj) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3")\n'}
+[2.558773] (enpm673_final_proj) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.563636] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.587550] (enpm673_final_proj) StdoutLine: {'line': b'--   Found libzmq, version 4.3.2\n'}
+[2.611828] (-) TimerEvent: {}
+[2.639114] (enpm673_final_proj) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4")\n'}
+[2.646839] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.665817] (enpm673_final_proj) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[2.712195] (-) TimerEvent: {}
+[2.715724] (enpm673_final_proj) StdoutLine: {'line': b'-- Found UUID: TRUE\n'}
+[2.719817] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.719978] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.739303] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.745986] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.764699] (enpm673_final_proj) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[2.812598] (-) TimerEvent: {}
+[2.818982] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.824947] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[2.825198] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.826070] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.827537] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.829172] (enpm673_final_proj) StdoutLine: {'line': b'-- Found DL: TRUE\n'}
+[2.842769] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.846291] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[2.846960] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.847030] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.853458] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[2.853869] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.913645] (-) TimerEvent: {}
+[2.968253] (enpm673_final_proj) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")\n'}
+[2.980061] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.999432] (enpm673_final_proj) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.014281] (-) TimerEvent: {}
+[3.049525] (enpm673_final_proj) StdoutLine: {'line': b'-- Found JSONCPP: TRUE\n'}
+[3.057379] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.077416] (enpm673_final_proj) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.114985] (-) TimerEvent: {}
+[3.132391] (enpm673_final_proj) StdoutLine: {'line': b'-- Found ZIP: TRUE\n'}
+[3.132941] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.133441] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.133828] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.215174] (-) TimerEvent: {}
+[3.273839] (enpm673_final_proj) StdoutLine: {'line': b'-- Configuring done (3.2s)\n'}
+[3.289043] (enpm673_final_proj) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.290322] (enpm673_final_proj) StdoutLine: {'line': b'-- Build files have been written to: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj\n'}
+[3.310375] (enpm673_final_proj) CommandEnded: {'returncode': 0}
+[3.311278] (enpm673_final_proj) JobProgress: {'identifier': 'enpm673_final_proj', 'progress': 'build'}
+[3.312050] (enpm673_final_proj) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '--build', '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj', '--', '-j8', '-l8'], 'cwd': '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '2014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1913'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b3984497af4d44736d47b3168153e3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:61925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/leoo/.gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2049,unix/ubuntu:/tmp/.ICE-unix/2049'), ('INVOCATION_ID', 'b2963a75ad7047ea873a8edcd9f63537'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f7ac0aa_ba17_4ef3_b5f3_04eda63adf9e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b3984497af4d44736d47b3168153e3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[3.316024] (-) TimerEvent: {}
+[3.386408] (enpm673_final_proj) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_enpm673_final_proj.dir/src/enpm673_final_proj.cpp.o\x1b[0m\n'}
+[3.386615] (enpm673_final_proj) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/animated_box.dir/src/animated_box.cpp.o\x1b[0m\n'}
+[3.388622] (enpm673_final_proj) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_symlink_enpm673_module\n'}
+[3.409419] (enpm673_final_proj) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cpp_enpm673_final_proj\x1b[0m\n'}
+[3.416579] (-) TimerEvent: {}
+[3.517007] (-) TimerEvent: {}
+[3.518046] (enpm673_final_proj) StdoutLine: {'line': b'[ 75%] Built target cpp_enpm673_final_proj\n'}
+[3.609315] (enpm673_final_proj) StdoutLine: {'line': b'running egg_info\n'}
+[3.609850] (enpm673_final_proj) StdoutLine: {'line': b'creating enpm673_module.egg-info\n'}
+[3.610090] (enpm673_final_proj) StdoutLine: {'line': b'writing enpm673_module.egg-info/PKG-INFO\n'}
+[3.610308] (enpm673_final_proj) StdoutLine: {'line': b'writing dependency_links to enpm673_module.egg-info/dependency_links.txt\n'}
+[3.610508] (enpm673_final_proj) StdoutLine: {'line': b'writing top-level names to enpm673_module.egg-info/top_level.txt\n'}
+[3.614618] (enpm673_final_proj) StdoutLine: {'line': b"writing manifest file 'enpm673_module.egg-info/SOURCES.txt'\n"}
+[3.617262] (-) TimerEvent: {}
+[3.656928] (enpm673_final_proj) StdoutLine: {'line': b"reading manifest file 'enpm673_module.egg-info/SOURCES.txt'\n"}
+[3.657389] (enpm673_final_proj) StdoutLine: {'line': b"writing manifest file 'enpm673_module.egg-info/SOURCES.txt'\n"}
+[3.682042] (enpm673_final_proj) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_build_enpm673_module_egg\n'}
+[3.717560] (-) TimerEvent: {}
+[3.818216] (-) TimerEvent: {}
+[3.918837] (-) TimerEvent: {}
+[4.019551] (-) TimerEvent: {}
+[4.120252] (-) TimerEvent: {}
+[4.220913] (-) TimerEvent: {}
+[4.321422] (-) TimerEvent: {}
+[4.422020] (-) TimerEvent: {}
+[4.522762] (-) TimerEvent: {}
+[4.624084] (-) TimerEvent: {}
+[4.724745] (-) TimerEvent: {}
+[4.825268] (-) TimerEvent: {}
+[4.926043] (-) TimerEvent: {}
+[5.026460] (-) TimerEvent: {}
+[5.127023] (-) TimerEvent: {}
+[5.227776] (-) TimerEvent: {}
+[5.328416] (-) TimerEvent: {}
+[5.429287] (-) TimerEvent: {}
+[5.530069] (-) TimerEvent: {}
+[5.536510] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Box.hh:23\x1b[m\x1b[K,\n'}
+[5.536693] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:30\x1b[m\x1b[K,\n'}
+[5.536764] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.536861] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.536927] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.536981] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.537033] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.537085] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.537138] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.537194] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.537244] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.537292] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.537431] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Plane.hh:133:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.537708] (enpm673_final_proj) StderrLine: {'line': b'  133 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<Vector3<T>> Intersection(\n'}
+[5.537786] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.537831] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Plane.hh:133:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.537888] (enpm673_final_proj) StderrLine: {'line': b'  133 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<Vector3<T>> Intersection(\n'}
+[5.537932] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.537976] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:30\x1b[m\x1b[K,\n'}
+[5.538021] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.538108] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.538159] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.538205] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.538250] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.538307] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.538351] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.538394] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.538437] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.538480] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.538531] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Box.hh:151:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.538629] (enpm673_final_proj) StderrLine: {'line': b'  151 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<Vector3<Precision>>\n'}
+[5.538678] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.538721] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Box.hh:151:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.538765] (enpm673_final_proj) StderrLine: {'line': b'  151 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<Vector3<Precision>>\n'}
+[5.538809] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.540608] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Box.hh:224\x1b[m\x1b[K,\n'}
+[5.540751] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:30\x1b[m\x1b[K,\n'}
+[5.540797] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.540841] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.540885] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.540953] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.541019] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.541063] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.541106] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.541149] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.541196] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.541246] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.541311] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/detail/Box.hh:237:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.541361] (enpm673_final_proj) StderrLine: {'line': b'  237 | std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<Vector3<T>>\n'}
+[5.541494] (enpm673_final_proj) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.541574] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/detail/Box.hh:237:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.541910] (enpm673_final_proj) StderrLine: {'line': b'  237 | \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<Vector3<T>>\n'}
+[5.542126] (enpm673_final_proj) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.542191] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:31\x1b[m\x1b[K,\n'}
+[5.542236] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.542280] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.542323] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.542369] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.542411] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.542455] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.542498] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.542544] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.542592] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.542661] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.542709] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Capsule.hh:91:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.542754] (enpm673_final_proj) StderrLine: {'line': b'   91 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K< MassMatrix3<Precision> > MassMatrix() const;\n'}
+[5.542798] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.542846] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Capsule.hh:91:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.542900] (enpm673_final_proj) StderrLine: {'line': b'   91 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional< MassMatrix3<Precision> > MassMatrix() const;\n'}
+[5.542944] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.543566] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Capsule.hh:149\x1b[m\x1b[K,\n'}
+[5.543712] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:31\x1b[m\x1b[K,\n'}
+[5.543776] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.543821] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.543865] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.543908] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.543951] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.543994] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.544038] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.544080] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.544123] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.544189] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.544244] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/detail/Capsule.hh:100:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.544290] (enpm673_final_proj) StderrLine: {'line': b'  100 | std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K< MassMatrix3<T> > Capsule<T>::MassMatrix() const\n'}
+[5.544336] (enpm673_final_proj) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.544378] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/detail/Capsule.hh:100:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.544430] (enpm673_final_proj) StderrLine: {'line': b'  100 | \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional< MassMatrix3<T> > Capsule<T>::MassMatrix() const\n'}
+[5.544475] (enpm673_final_proj) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.552455] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:35\x1b[m\x1b[K,\n'}
+[5.552713] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.552947] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.553319] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.553412] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.553460] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.553505] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.553549] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.553593] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.553642] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.553685] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.553731] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Ellipsoid.hh:77:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.553778] (enpm673_final_proj) StderrLine: {'line': b'   77 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K< MassMatrix3<Precision> > MassMatrix() const;\n'}
+[5.553823] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.553866] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Ellipsoid.hh:77:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.553915] (enpm673_final_proj) StderrLine: {'line': b'   77 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional< MassMatrix3<Precision> > MassMatrix() const;\n'}
+[5.553959] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.554009] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Ellipsoid.hh:132\x1b[m\x1b[K,\n'}
+[5.554058] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:35\x1b[m\x1b[K,\n'}
+[5.554102] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.554145] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.554193] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.554237] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.554280] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.554323] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.554366] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.554412] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.554460] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.554504] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.554549] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/detail/Ellipsoid.hh:77:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.554594] (enpm673_final_proj) StderrLine: {'line': b'   77 | std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K< MassMatrix3<T> > Ellipsoid<T>::MassMatrix() const\n'}
+[5.554648] (enpm673_final_proj) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.554692] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/detail/Ellipsoid.hh:77:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.554748] (enpm673_final_proj) StderrLine: {'line': b'   77 | \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional< MassMatrix3<T> > Ellipsoid<T>::MassMatrix() const\n'}
+[5.554792] (enpm673_final_proj) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.587240] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:57\x1b[m\x1b[K,\n'}
+[5.587466] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.587929] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.588074] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.588229] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.588288] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.588332] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.588376] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.588420] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.588492] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.588549] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.588596] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KT ignition::math::v6::Polynomial3<T>::Evaluate(const T&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.588659] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:74:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomma-separated list in using-declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.588705] (enpm673_final_proj) StderrLine: {'line': b'   74 |         using std::isnan\x1b[01;35m\x1b[K,\x1b[m\x1b[K std::isfinite;\n'}
+[5.588788] (enpm673_final_proj) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.588835] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:81:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomma-separated list in using-declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.588880] (enpm673_final_proj) StderrLine: {'line': b'   81 |           using std::abs\x1b[01;35m\x1b[K,\x1b[m\x1b[K std::copysign;\n'}
+[5.588923] (enpm673_final_proj) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.588966] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KT ignition::math::v6::Polynomial3<T>::Minimum(const ignition::math::v6::Interval<T>&, T&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.589030] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:141:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomma-separated list in using-declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.589092] (enpm673_final_proj) StderrLine: {'line': b'  141 |         using std::abs\x1b[01;35m\x1b[K,\x1b[m\x1b[K std::sqrt;  // enable ADL\n'}
+[5.589226] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.630362] (-) TimerEvent: {}
+[5.731331] (-) TimerEvent: {}
+[5.790236] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:67\x1b[m\x1b[K,\n'}
+[5.790567] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.790691] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.790748] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.790793] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.790839] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.791023] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.791135] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.791247] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.791514] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.791607] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.791657] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Sphere.hh:\x1b[m\x1b[K At global scope:\n'}
+[5.791702] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Sphere.hh:109:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.791752] (enpm673_final_proj) StderrLine: {'line': b'  109 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<Vector3<Precision>>\n'}
+[5.791796] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.791839] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Sphere.hh:109:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.791884] (enpm673_final_proj) StderrLine: {'line': b'  109 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<Vector3<Precision>>\n'}
+[5.791942] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.792006] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/Sphere.hh:157\x1b[m\x1b[K,\n'}
+[5.792198] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/gz/math.hh:67\x1b[m\x1b[K,\n'}
+[5.792268] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ignition/math6/ignition/math.hh:18\x1b[m\x1b[K,\n'}
+[5.792312] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:33\x1b[m\x1b[K,\n'}
+[5.792357] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.792403] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.792446] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.792489] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.792534] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.792578] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.792708] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.792759] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.792806] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/detail/Sphere.hh:123:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.792866] (enpm673_final_proj) StderrLine: {'line': b'  123 | std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<Vector3<T>>\n'}
+[5.792910] (enpm673_final_proj) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.792954] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/math6/gz/math/detail/Sphere.hh:123:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.793001] (enpm673_final_proj) StderrLine: {'line': b'  123 | \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<Vector3<T>>\n'}
+[5.793141] (enpm673_final_proj) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.831545] (-) TimerEvent: {}
+[5.833324] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[5.833588] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.833698] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.833811] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.833931] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.834038] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.834353] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.834472] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.834522] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:72:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.834573] (enpm673_final_proj) StderrLine: {'line': b'   72 |   template<class T> ParamStreamer(T) -> ParamStreamer<T>\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[5.834626] (enpm673_final_proj) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.834670] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvariant\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.834715] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            ParamStreamer<std::\x1b[01;31m\x1b[Kvariant\x1b[m\x1b[K<Ts...>> sv)\n'}
+[5.834759] (enpm673_final_proj) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.834803] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::variant\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.834849] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvariant\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.834893] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::variant\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.834939] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected parameter pack before \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.834983] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            ParamStreamer<std::variant<Ts\x1b[01;31m\x1b[K...\x1b[m\x1b[K>> sv)\n'}
+[5.835027] (enpm673_final_proj) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.835071] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.835117] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvariant\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.835164] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            ParamStreamer<std::\x1b[01;31m\x1b[Kvariant\x1b[m\x1b[K<Ts...>> sv)\n'}
+[5.835208] (enpm673_final_proj) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.835252] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::variant\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.835298] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvariant\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.835342] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::variant\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.835398] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected parameter pack before \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.835443] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            ParamStreamer<std::variant<Ts\x1b[01;31m\x1b[K...\x1b[m\x1b[K>> sv)\n'}
+[5.835487] (enpm673_final_proj) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.835531] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.835575] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            ParamStreamer<std::variant<Ts...\x1b[01;31m\x1b[K>>\x1b[m\x1b[K sv)\n'}
+[5.835619] (enpm673_final_proj) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.835662] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvariant\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.835717] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            ParamStreamer<std::\x1b[01;31m\x1b[Kvariant\x1b[m\x1b[K<Ts...>> sv)\n'}
+[5.835763] (enpm673_final_proj) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.835807] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::variant\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.835850] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvariant\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.835895] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::variant\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.835944] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected parameter pack before \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.835990] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            ParamStreamer<std::variant<Ts\x1b[01;31m\x1b[K...\x1b[m\x1b[K>> sv)\n'}
+[5.836033] (enpm673_final_proj) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.836180] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.836228] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            ParamStreamer<std::variant<Ts...\x1b[01;31m\x1b[K>>\x1b[m\x1b[K sv)\n'}
+[5.836273] (enpm673_final_proj) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.836327] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KParamStreamer\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[5.836373] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            \x1b[01;31m\x1b[KParamStreamer\x1b[m\x1b[K<std::variant<Ts...>> sv)\n'}
+[5.836422] (enpm673_final_proj) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.836466] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:83:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.836513] (enpm673_final_proj) StderrLine: {'line': b'   83 |                            ParamStreamer\x1b[01;31m\x1b[K<\x1b[m\x1b[Kstd::variant<Ts...>> sv)\n'}
+[5.836787] (enpm673_final_proj) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.836982] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& sdf::v9::operator<<(std::ostream&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.837039] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:85:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisit\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.837086] (enpm673_final_proj) StderrLine: {'line': b'   85 |     std::\x1b[01;31m\x1b[Kvisit\x1b[m\x1b[K([&os](auto const &v)\n'}
+[5.837131] (enpm673_final_proj) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.837178] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:85:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::visit\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.837223] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K In lambda function:\n'}
+[5.837273] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:87:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template arguments before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.837318] (enpm673_final_proj) StderrLine: {'line': b'   87 |         os << ParamStreamer\x1b[01;31m\x1b[K{\x1b[m\x1b[Kv};\n'}
+[5.837362] (enpm673_final_proj) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.837406] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& sdf::v9::operator<<(std::ostream&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.837452] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:88:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.837497] (enpm673_final_proj) StderrLine: {'line': b'   88 |       }, \x1b[01;31m\x1b[Ksv\x1b[m\x1b[K.val);\n'}
+[5.837540] (enpm673_final_proj) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.837583] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K At global scope:\n'}
+[5.837626] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:173:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::any\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.837674] (enpm673_final_proj) StderrLine: {'line': b'  173 |     public: bool GetAny(std::\x1b[01;31m\x1b[Kany\x1b[m\x1b[K &_anyVal) const;\n'}
+[5.837717] (enpm673_final_proj) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.843203] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:243:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kany\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.843391] (enpm673_final_proj) StderrLine: {'line': b'  243 |     public: std::function<std::\x1b[01;31m\x1b[Kany\x1b[m\x1b[K ()> updateFunc;\n'}
+[5.843442] (enpm673_final_proj) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.843487] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:243:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::any\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.843534] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:243:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kany\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.843587] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:243:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::any\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.843632] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:243:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.843681] (enpm673_final_proj) StderrLine: {'line': b'  243 |     public: std::function<std::any ()\x1b[01;31m\x1b[K>\x1b[m\x1b[K updateFunc;\n'}
+[5.843727] (enpm673_final_proj) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.843773] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:249:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvariant\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.843821] (enpm673_final_proj) StderrLine: {'line': b'  249 |     public: typedef std::\x1b[01;31m\x1b[Kvariant\x1b[m\x1b[K<bool, char, std::string, int, std::uint64_t,\n'}
+[5.843868] (enpm673_final_proj) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.843911] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:249:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::variant\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.843956] (enpm673_final_proj) StderrLine: {'line': b'  249 |     public: typedef \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::variant<bool, char, std::string, int, std::uint64_t,\n'}
+[5.843999] (enpm673_final_proj) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.847916] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:260:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KParamVariant\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.848085] (enpm673_final_proj) StderrLine: {'line': b'  260 |     public: \x1b[01;31m\x1b[KParamVariant\x1b[m\x1b[K value;\n'}
+[5.848138] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.852790] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:263:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KParamVariant\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.853045] (enpm673_final_proj) StderrLine: {'line': b'  263 |     public: \x1b[01;31m\x1b[KParamVariant\x1b[m\x1b[K defaultValue;\n'}
+[5.853154] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.853252] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:273:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KParamVariant\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.853624] (enpm673_final_proj) StderrLine: {'line': b'  273 |                                     \x1b[01;31m\x1b[KParamVariant\x1b[m\x1b[K &_valueToSet) const;\n'}
+[5.854003] (enpm673_final_proj) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.854067] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string sdf::v9::ParamPrivate::TypeToString() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.854125] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:286:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.854201] (enpm673_final_proj) StderrLine: {'line': b'  286 |     if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, bool>)\n'}
+[5.854444] (enpm673_final_proj) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.854599] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:286:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.854668] (enpm673_final_proj) StderrLine: {'line': b'  286 |     if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, bool>)\n'}
+[5.854727] (enpm673_final_proj) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.854968] (enpm673_final_proj) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.855027] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:286:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.855074] (enpm673_final_proj) StderrLine: {'line': b'  286 |     if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K bool>)\n'}
+[5.855123] (enpm673_final_proj) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.855335] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:286:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.855431] (enpm673_final_proj) StderrLine: {'line': b'  286 |     if constexpr (std::is_same_v<T, \x1b[01;31m\x1b[Kbool\x1b[m\x1b[K>)\n'}
+[5.855482] (enpm673_final_proj) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.855528] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:286:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.855575] (enpm673_final_proj) StderrLine: {'line': b'  286 |     if constexpr \x1b[34m\x1b[K(\x1b[m\x1b[Kstd::is_same_v<T,\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kbool\x1b[m\x1b[K>)\n'}
+[5.855620] (enpm673_final_proj) StderrLine: {'line': b'      |                  \x1b[34m\x1b[K~\x1b[m\x1b[K                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[5.855664] (enpm673_final_proj) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.855708] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:288:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.855772] (enpm673_final_proj) StderrLine: {'line': b'  288 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, char>)\n'}
+[5.855817] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.855862] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:288:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.855917] (enpm673_final_proj) StderrLine: {'line': b'  288 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, char>)\n'}
+[5.855964] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.856056] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.856162] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:288:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.856404] (enpm673_final_proj) StderrLine: {'line': b'  288 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K char>)\n'}
+[5.856527] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.856577] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:288:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.856626] (enpm673_final_proj) StderrLine: {'line': b'  288 |     else if constexpr (std::is_same_v<T, \x1b[01;31m\x1b[Kchar\x1b[m\x1b[K>)\n'}
+[5.856696] (enpm673_final_proj) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.857148] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:288:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.857216] (enpm673_final_proj) StderrLine: {'line': b'  288 |     else if constexpr \x1b[34m\x1b[K(\x1b[m\x1b[Kstd::is_same_v<T,\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kchar\x1b[m\x1b[K>)\n'}
+[5.857264] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[34m\x1b[K~\x1b[m\x1b[K                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[5.857309] (enpm673_final_proj) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.857366] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:290:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.857414] (enpm673_final_proj) StderrLine: {'line': b'  290 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, std::string>)\n'}
+[5.857553] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.857905] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:290:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.858131] (enpm673_final_proj) StderrLine: {'line': b'  290 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, std::string>)\n'}
+[5.858550] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.858685] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.858751] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:290:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.858802] (enpm673_final_proj) StderrLine: {'line': b'  290 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K std::string>)\n'}
+[5.858849] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.858894] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:290:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.858946] (enpm673_final_proj) StderrLine: {'line': b'  290 |     else if constexpr (std::is_same_v<T, std::string\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.858990] (enpm673_final_proj) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.859034] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:290:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.859079] (enpm673_final_proj) StderrLine: {'line': b'  290 |     else if constexpr (std::is_same_v<T, std::string>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.859377] (enpm673_final_proj) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.859510] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:292:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.859562] (enpm673_final_proj) StderrLine: {'line': b'  292 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, int>)\n'}
+[5.859638] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.859686] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:292:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.859733] (enpm673_final_proj) StderrLine: {'line': b'  292 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, int>)\n'}
+[5.859777] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.859825] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.859870] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:292:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.859972] (enpm673_final_proj) StderrLine: {'line': b'  292 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K int>)\n'}
+[5.860054] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.860161] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:292:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.860265] (enpm673_final_proj) StderrLine: {'line': b'  292 |     else if constexpr (std::is_same_v<T, \x1b[01;31m\x1b[Kint\x1b[m\x1b[K>)\n'}
+[5.860316] (enpm673_final_proj) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.860361] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:292:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.860412] (enpm673_final_proj) StderrLine: {'line': b'  292 |     else if constexpr \x1b[34m\x1b[K(\x1b[m\x1b[Kstd::is_same_v<T,\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kint\x1b[m\x1b[K>)\n'}
+[5.860496] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[34m\x1b[K~\x1b[m\x1b[K                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[5.860542] (enpm673_final_proj) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.860587] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:294:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.860852] (enpm673_final_proj) StderrLine: {'line': b'  294 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, std::uint64_t>)\n'}
+[5.860909] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.860955] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:294:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.861001] (enpm673_final_proj) StderrLine: {'line': b'  294 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, std::uint64_t>)\n'}
+[5.861045] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.861089] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.861132] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:294:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.861192] (enpm673_final_proj) StderrLine: {'line': b'  294 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K std::uint64_t>)\n'}
+[5.861401] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.861456] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:294:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.861503] (enpm673_final_proj) StderrLine: {'line': b'  294 |     else if constexpr (std::is_same_v<T, std::uint64_t\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.861548] (enpm673_final_proj) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.861593] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:294:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.861648] (enpm673_final_proj) StderrLine: {'line': b'  294 |     else if constexpr (std::is_same_v<T, std::uint64_t>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.861695] (enpm673_final_proj) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.861741] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:296:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.861822] (enpm673_final_proj) StderrLine: {'line': b'  296 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, unsigned int>)\n'}
+[5.861880] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.861926] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:296:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.861973] (enpm673_final_proj) StderrLine: {'line': b'  296 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, unsigned int>)\n'}
+[5.862017] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.862064] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.862153] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:296:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.862250] (enpm673_final_proj) StderrLine: {'line': b'  296 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K unsigned int>)\n'}
+[5.862343] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.862449] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:296:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kunsigned\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.862792] (enpm673_final_proj) StderrLine: {'line': b'  296 |     else if constexpr (std::is_same_v<T, \x1b[01;31m\x1b[Kunsigned\x1b[m\x1b[K int>)\n'}
+[5.862860] (enpm673_final_proj) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.862910] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:296:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kunsigned\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.862958] (enpm673_final_proj) StderrLine: {'line': b'  296 |     else if constexpr \x1b[34m\x1b[K(\x1b[m\x1b[Kstd::is_same_v<T,\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kunsigned\x1b[m\x1b[K int>)\n'}
+[5.863003] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[34m\x1b[K~\x1b[m\x1b[K                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[5.863048] (enpm673_final_proj) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.863093] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:298:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.863155] (enpm673_final_proj) StderrLine: {'line': b'  298 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, double>)\n'}
+[5.863200] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.863245] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:298:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.863292] (enpm673_final_proj) StderrLine: {'line': b'  298 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, double>)\n'}
+[5.863340] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.863605] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.863653] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:298:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.863699] (enpm673_final_proj) StderrLine: {'line': b'  298 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K double>)\n'}
+[5.863745] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.863791] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:298:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.863839] (enpm673_final_proj) StderrLine: {'line': b'  298 |     else if constexpr (std::is_same_v<T, \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K>)\n'}
+[5.863884] (enpm673_final_proj) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.863935] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:298:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.863995] (enpm673_final_proj) StderrLine: {'line': b'  298 |     else if constexpr \x1b[34m\x1b[K(\x1b[m\x1b[Kstd::is_same_v<T,\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kdouble\x1b[m\x1b[K>)\n'}
+[5.864040] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[34m\x1b[K~\x1b[m\x1b[K                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[5.864529] (enpm673_final_proj) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.864678] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:300:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.864849] (enpm673_final_proj) StderrLine: {'line': b'  300 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, float>)\n'}
+[5.865230] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.865379] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:300:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.865438] (enpm673_final_proj) StderrLine: {'line': b'  300 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, float>)\n'}
+[5.865500] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.865547] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.865593] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:300:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.865641] (enpm673_final_proj) StderrLine: {'line': b'  300 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K float>)\n'}
+[5.865687] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.865731] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:300:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.865778] (enpm673_final_proj) StderrLine: {'line': b'  300 |     else if constexpr (std::is_same_v<T, \x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K>)\n'}
+[5.865954] (enpm673_final_proj) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.866026] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:300:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.866119] (enpm673_final_proj) StderrLine: {'line': b'  300 |     else if constexpr \x1b[34m\x1b[K(\x1b[m\x1b[Kstd::is_same_v<T,\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kfloat\x1b[m\x1b[K>)\n'}
+[5.866255] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[34m\x1b[K~\x1b[m\x1b[K                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[5.866314] (enpm673_final_proj) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.866400] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:302:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.866556] (enpm673_final_proj) StderrLine: {'line': b'  302 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, sdf::Time>)\n'}
+[5.866911] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.867012] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:302:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.867064] (enpm673_final_proj) StderrLine: {'line': b'  302 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, sdf::Time>)\n'}
+[5.867110] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.867155] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.867215] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:302:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.867263] (enpm673_final_proj) StderrLine: {'line': b'  302 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K sdf::Time>)\n'}
+[5.867307] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.867366] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:302:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.867412] (enpm673_final_proj) StderrLine: {'line': b'  302 |     else if constexpr (std::is_same_v<T, sdf::Time\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.867457] (enpm673_final_proj) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.867504] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:302:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.867549] (enpm673_final_proj) StderrLine: {'line': b'  302 |     else if constexpr (std::is_same_v<T, sdf::Time>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.867593] (enpm673_final_proj) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.867638] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:304:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.867688] (enpm673_final_proj) StderrLine: {'line': b'  304 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, ignition::math::Angle>)\n'}
+[5.867734] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.867952] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:304:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.868079] (enpm673_final_proj) StderrLine: {'line': b'  304 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, ignition::math::Angle>)\n'}
+[5.868140] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.868190] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.868235] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:304:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.868284] (enpm673_final_proj) StderrLine: {'line': b'  304 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K ignition::math::Angle>)\n'}
+[5.868333] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.868377] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:304:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.868422] (enpm673_final_proj) StderrLine: {'line': b'  304 |     else if constexpr (std::is_same_v<T, ignition::math::Angle\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.868466] (enpm673_final_proj) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.868511] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:304:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.868555] (enpm673_final_proj) StderrLine: {'line': b'  304 |     else if constexpr (std::is_same_v<T, ignition::math::Angle>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.868715] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.868769] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:306:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.868914] (enpm673_final_proj) StderrLine: {'line': b'  306 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, ignition::math::Color>)\n'}
+[5.868964] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.869009] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:306:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.869055] (enpm673_final_proj) StderrLine: {'line': b'  306 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, ignition::math::Color>)\n'}
+[5.869100] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.869144] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.869206] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:306:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.869270] (enpm673_final_proj) StderrLine: {'line': b'  306 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K ignition::math::Color>)\n'}
+[5.869734] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.869818] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:306:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.869869] (enpm673_final_proj) StderrLine: {'line': b'  306 |     else if constexpr (std::is_same_v<T, ignition::math::Color\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.869916] (enpm673_final_proj) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.869961] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:306:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.870024] (enpm673_final_proj) StderrLine: {'line': b'  306 |     else if constexpr (std::is_same_v<T, ignition::math::Color>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.870070] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.870117] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:308:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.870168] (enpm673_final_proj) StderrLine: {'line': b'  308 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, ignition::math::Vector2i>)\n'}
+[5.870214] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.870282] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:308:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.870358] (enpm673_final_proj) StderrLine: {'line': b'  308 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, ignition::math::Vector2i>)\n'}
+[5.870410] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.870456] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.870499] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:308:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.870544] (enpm673_final_proj) StderrLine: {'line': b'  308 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K ignition::math::Vector2i>)\n'}
+[5.870589] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.870633] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:308:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.870690] (enpm673_final_proj) StderrLine: {'line': b'  308 |     else if constexpr (std::is_same_v<T, ignition::math::Vector2i\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.870734] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.870778] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:308:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.870822] (enpm673_final_proj) StderrLine: {'line': b'  308 |     else if constexpr (std::is_same_v<T, ignition::math::Vector2i>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.870865] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.870910] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:310:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.870957] (enpm673_final_proj) StderrLine: {'line': b'  310 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, ignition::math::Vector2d>)\n'}
+[5.871001] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.871208] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:310:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.871270] (enpm673_final_proj) StderrLine: {'line': b'  310 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, ignition::math::Vector2d>)\n'}
+[5.871316] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.871360] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.871403] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:310:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.871456] (enpm673_final_proj) StderrLine: {'line': b'  310 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K ignition::math::Vector2d>)\n'}
+[5.871500] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.871543] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:310:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.871587] (enpm673_final_proj) StderrLine: {'line': b'  310 |     else if constexpr (std::is_same_v<T, ignition::math::Vector2d\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.871630] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.871674] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:310:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.871718] (enpm673_final_proj) StderrLine: {'line': b'  310 |     else if constexpr (std::is_same_v<T, ignition::math::Vector2d>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.871762] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.871805] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:312:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.871855] (enpm673_final_proj) StderrLine: {'line': b'  312 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, ignition::math::Vector3d>)\n'}
+[5.872004] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.872058] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:312:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.872119] (enpm673_final_proj) StderrLine: {'line': b'  312 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, ignition::math::Vector3d>)\n'}
+[5.872164] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.872209] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.872253] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:312:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.872298] (enpm673_final_proj) StderrLine: {'line': b'  312 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K ignition::math::Vector3d>)\n'}
+[5.872341] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.872385] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:312:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.872429] (enpm673_final_proj) StderrLine: {'line': b'  312 |     else if constexpr (std::is_same_v<T, ignition::math::Vector3d\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.872481] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.872525] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:312:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.872569] (enpm673_final_proj) StderrLine: {'line': b'  312 |     else if constexpr (std::is_same_v<T, ignition::math::Vector3d>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.872613] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.872664] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:314:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.872712] (enpm673_final_proj) StderrLine: {'line': b'  314 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, ignition::math::Quaterniond>)\n'}
+[5.872988] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.873061] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:314:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.873110] (enpm673_final_proj) StderrLine: {'line': b'  314 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, ignition::math::Quaterniond>)\n'}
+[5.873155] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.873203] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.873257] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:314:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.873304] (enpm673_final_proj) StderrLine: {'line': b'  314 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K ignition::math::Quaterniond>)\n'}
+[5.873348] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.873391] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:314:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.873435] (enpm673_final_proj) StderrLine: {'line': b'  314 |     else if constexpr (std::is_same_v<T, ignition::math::Quaterniond\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.873479] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.873522] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:314:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.873567] (enpm673_final_proj) StderrLine: {'line': b'  314 |     else if constexpr (std::is_same_v<T, ignition::math::Quaterniond>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.873611] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.873654] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:316:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kif constexpr\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.873707] (enpm673_final_proj) StderrLine: {'line': b'  316 |     else if \x1b[01;35m\x1b[Kconstexpr\x1b[m\x1b[K (std::is_same_v<T, ignition::math::Pose3d>)\n'}
+[5.873751] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.873800] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:316:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_same_v\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kis_same\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.873847] (enpm673_final_proj) StderrLine: {'line': b'  316 |     else if constexpr (std::\x1b[01;31m\x1b[Kis_same_v\x1b[m\x1b[K<T, ignition::math::Pose3d>)\n'}
+[5.873891] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.873935] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kis_same\x1b[m\x1b[K\n'}
+[5.873978] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:316:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.874022] (enpm673_final_proj) StderrLine: {'line': b'  316 |     else if constexpr (std::is_same_v<T\x1b[01;31m\x1b[K,\x1b[m\x1b[K ignition::math::Pose3d>)\n'}
+[5.874073] (enpm673_final_proj) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.874117] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:316:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.874162] (enpm673_final_proj) StderrLine: {'line': b'  316 |     else if constexpr (std::is_same_v<T, ignition::math::Pose3d\x1b[01;31m\x1b[K>\x1b[m\x1b[K)\n'}
+[5.874206] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.874249] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:316:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.874298] (enpm673_final_proj) StderrLine: {'line': b'  316 |     else if constexpr (std::is_same_v<T, ignition::math::Pose3d>\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.874343] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.874387] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool sdf::v9::Param::Get(T&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.874434] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:353:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_if\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_time\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.874480] (enpm673_final_proj) StderrLine: {'line': b'  353 |     T *value = std::\x1b[01;31m\x1b[Kget_if\x1b[m\x1b[K<T>(&this->dataPtr->value);\n'}
+[5.874525] (enpm673_final_proj) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.874627] (enpm673_final_proj) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kget_time\x1b[m\x1b[K\n'}
+[5.874710] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:353:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.874761] (enpm673_final_proj) StderrLine: {'line': b'  353 |     T *value = std::get_if<T\x1b[01;31m\x1b[K>\x1b[m\x1b[K(&this->dataPtr->value);\n'}
+[5.874887] (enpm673_final_proj) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.875345] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:353:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass sdf::v9::ParamPrivate\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.875427] (enpm673_final_proj) StderrLine: {'line': b'  353 |     T *value = std::get_if<T>(&this->dataPtr->\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K);\n'}
+[5.875475] (enpm673_final_proj) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.875539] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:368:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KParamVariant\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksdf::v9::ParamPrivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.875588] (enpm673_final_proj) StderrLine: {'line': b'  368 |       ParamPrivate::\x1b[01;31m\x1b[KParamVariant\x1b[m\x1b[K pv;\n'}
+[5.875633] (enpm673_final_proj) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.875678] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:369:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.875723] (enpm673_final_proj) StderrLine: {'line': b'  369 |       bool success = this->dataPtr->ValueFromStringImpl(typeStr, valueStr, \x1b[01;31m\x1b[Kpv\x1b[m\x1b[K);\n'}
+[5.875769] (enpm673_final_proj) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.875826] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool sdf::v9::Param::GetDefault(T&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.875891] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:406:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template arguments before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.876023] (enpm673_final_proj) StderrLine: {'line': b'  406 |       ss << ParamStreamer\x1b[01;31m\x1b[K{\x1b[m\x1b[Kthis->dataPtr->defaultValue};\n'}
+[5.876112] (enpm673_final_proj) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.876158] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool sdf::v9::Param::IsType() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.876204] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:426:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kholds_alternative\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.876251] (enpm673_final_proj) StderrLine: {'line': b'  426 |     return std::\x1b[01;31m\x1b[Kholds_alternative\x1b[m\x1b[K<Type>(this->dataPtr->value);\n'}
+[5.876296] (enpm673_final_proj) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.876340] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:426:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.876405] (enpm673_final_proj) StderrLine: {'line': b'  426 |     return std::holds_alternative<Type\x1b[01;31m\x1b[K>\x1b[m\x1b[K(this->dataPtr->value);\n'}
+[5.876450] (enpm673_final_proj) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.876494] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:426:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass sdf::v9::ParamPrivate\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.876540] (enpm673_final_proj) StderrLine: {'line': b'  426 |     return std::holds_alternative<Type>(this->dataPtr->\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K);\n'}
+[5.876585] (enpm673_final_proj) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.876629] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[5.876680] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[5.876725] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[5.876769] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[5.876823] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[5.876880] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[5.876999] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[5.877048] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:\x1b[m\x1b[K At global scope:\n'}
+[5.877093] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:279:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kany\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.877140] (enpm673_final_proj) StderrLine: {'line': b'  279 |     public: std::\x1b[01;31m\x1b[Kany\x1b[m\x1b[K GetAny(const std::string &_key = "") const;\n'}
+[5.877185] (enpm673_final_proj) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.877229] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:279:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::any\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[5.877275] (enpm673_final_proj) StderrLine: {'line': b'  279 |     public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::any GetAny(const std::string &_key = "") const;\n'}
+[5.877319] (enpm673_final_proj) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.931825] (-) TimerEvent: {}
+[6.032209] (-) TimerEvent: {}
+[6.132636] (-) TimerEvent: {}
+[6.233231] (-) TimerEvent: {}
+[6.333736] (-) TimerEvent: {}
+[6.434306] (-) TimerEvent: {}
+[6.534912] (-) TimerEvent: {}
+[6.635422] (-) TimerEvent: {}
+[6.735903] (-) TimerEvent: {}
+[6.836403] (-) TimerEvent: {}
+[6.937015] (-) TimerEvent: {}
+[7.037527] (-) TimerEvent: {}
+[7.138447] (-) TimerEvent: {}
+[7.239028] (-) TimerEvent: {}
+[7.339982] (-) TimerEvent: {}
+[7.440591] (-) TimerEvent: {}
+[7.541265] (-) TimerEvent: {}
+[7.641774] (-) TimerEvent: {}
+[7.742229] (-) TimerEvent: {}
+[7.842835] (-) TimerEvent: {}
+[7.943777] (-) TimerEvent: {}
+[8.044224] (-) TimerEvent: {}
+[8.145165] (-) TimerEvent: {}
+[8.245643] (-) TimerEvent: {}
+[8.346519] (-) TimerEvent: {}
+[8.447234] (-) TimerEvent: {}
+[8.547700] (-) TimerEvent: {}
+[8.648443] (-) TimerEvent: {}
+[8.749059] (-) TimerEvent: {}
+[8.849921] (-) TimerEvent: {}
+[8.950725] (-) TimerEvent: {}
+[9.051424] (-) TimerEvent: {}
+[9.152075] (-) TimerEvent: {}
+[9.252901] (-) TimerEvent: {}
+[9.353911] (-) TimerEvent: {}
+[9.454468] (-) TimerEvent: {}
+[9.554843] (-) TimerEvent: {}
+[9.631945] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ignition/transport8/ignition/transport/Node.hh:42\x1b[m\x1b[K,\n'}
+[9.632198] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Entity.hh:25\x1b[m\x1b[K,\n'}
+[9.632328] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:30\x1b[m\x1b[K,\n'}
+[9.632433] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27\x1b[m\x1b[K,\n'}
+[9.632533] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2\x1b[m\x1b[K,\n'}
+[9.632708] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24\x1b[m\x1b[K:\n'}
+[9.632818] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/transport8/ignition/transport/NodeShared.hh:298:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[9.632916] (enpm673_final_proj) StderrLine: {'line': b'  298 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<TopicStatistics> TopicStats(\n'}
+[9.633018] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.633068] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/transport8/ignition/transport/NodeShared.hh:298:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.633113] (enpm673_final_proj) StderrLine: {'line': b'  298 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<TopicStatistics> TopicStats(\n'}
+[9.633157] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.655148] (-) TimerEvent: {}
+[9.671004] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Entity.hh:25\x1b[m\x1b[K,\n'}
+[9.671214] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:30\x1b[m\x1b[K,\n'}
+[9.671268] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27\x1b[m\x1b[K,\n'}
+[9.671315] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2\x1b[m\x1b[K,\n'}
+[9.671360] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24\x1b[m\x1b[K:\n'}
+[9.671409] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/transport8/ignition/transport/Node.hh:740:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[9.671458] (enpm673_final_proj) StderrLine: {'line': b'  740 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<TopicStatistics> TopicStats(\n'}
+[9.671505] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.671564] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ignition/transport8/ignition/transport/Node.hh:740:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.671611] (enpm673_final_proj) StderrLine: {'line': b'  740 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<TopicStatistics> TopicStats(\n'}
+[9.671657] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.697325] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Entity.hh:35\x1b[m\x1b[K,\n'}
+[9.697486] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:30\x1b[m\x1b[K,\n'}
+[9.697536] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27\x1b[m\x1b[K,\n'}
+[9.697580] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2\x1b[m\x1b[K,\n'}
+[9.697624] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24\x1b[m\x1b[K:\n'}
+[9.697689] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Base.hh:342:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[9.697735] (enpm673_final_proj) StderrLine: {'line': b'  342 |       public: virtual std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<sdf::SemanticPose> SDFSemanticPose() const;\n'}
+[9.697778] (enpm673_final_proj) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.697825] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Base.hh:342:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.697870] (enpm673_final_proj) StderrLine: {'line': b'  342 |       public: virtual \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<sdf::SemanticPose> SDFSemanticPose() const;\n'}
+[9.697913] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.707723] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27\x1b[m\x1b[K,\n'}
+[9.707985] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2\x1b[m\x1b[K,\n'}
+[9.708096] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24\x1b[m\x1b[K:\n'}
+[9.708195] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:486:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[9.708254] (enpm673_final_proj) StderrLine: {'line': b'  486 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<sdf::SemanticPose> SDFSemanticPose() const override;\n'}
+[9.708299] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.708347] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:486:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.708397] (enpm673_final_proj) StderrLine: {'line': b'  486 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<sdf::SemanticPose> SDFSemanticPose() const override;\n'}
+[9.708445] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.755400] (-) TimerEvent: {}
+[9.792326] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25\x1b[m\x1b[K,\n'}
+[9.792500] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:6\x1b[m\x1b[K,\n'}
+[9.792550] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24\x1b[m\x1b[K:\n'}
+[9.792596] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:594:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[9.792642] (enpm673_final_proj) StderrLine: {'line': b'  594 |       public: virtual std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<sdf::SemanticPose> SDFSemanticPose()\n'}
+[9.792686] (enpm673_final_proj) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.792729] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:594:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.792777] (enpm673_final_proj) StderrLine: {'line': b'  594 |       public: virtual \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<sdf::SemanticPose> SDFSemanticPose()\n'}
+[9.792821] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.805004] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:9\x1b[m\x1b[K,\n'}
+[9.805252] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24\x1b[m\x1b[K:\n'}
+[9.805390] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Collision.hh:205:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[9.805492] (enpm673_final_proj) StderrLine: {'line': b'  205 |       public: virtual std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<sdf::SemanticPose> SDFSemanticPose()\n'}
+[9.805588] (enpm673_final_proj) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.805681] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Collision.hh:205:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.805776] (enpm673_final_proj) StderrLine: {'line': b'  205 |       public: virtual \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<sdf::SemanticPose> SDFSemanticPose()\n'}
+[9.805870] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.851083] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:26\x1b[m\x1b[K,\n'}
+[9.851265] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24\x1b[m\x1b[K:\n'}
+[9.851333] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Light.hh:78:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[9.851379] (enpm673_final_proj) StderrLine: {'line': b'   78 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<sdf::SemanticPose> SDFSemanticPose() const override;\n'}
+[9.851429] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.851491] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Light.hh:78:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.851586] (enpm673_final_proj) StderrLine: {'line': b'   78 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<sdf::SemanticPose> SDFSemanticPose() const override;\n'}
+[9.851679] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.855585] (-) TimerEvent: {}
+[9.861860] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:28\x1b[m\x1b[K,\n'}
+[9.862129] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24\x1b[m\x1b[K:\n'}
+[9.862245] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Link.hh:617:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[9.862341] (enpm673_final_proj) StderrLine: {'line': b'  617 |       public: std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<sdf::SemanticPose> SDFSemanticPose() const override;\n'}
+[9.862398] (enpm673_final_proj) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.862442] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Link.hh:617:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.862487] (enpm673_final_proj) StderrLine: {'line': b'  617 |       public: \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<sdf::SemanticPose> SDFSemanticPose() const override;\n'}
+[9.862530] (enpm673_final_proj) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.888455] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:36\x1b[m\x1b[K,\n'}
+[9.888717] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24\x1b[m\x1b[K:\n'}
+[9.888919] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic T gazebo::physics::PhysicsEngine::any_cast(const boost::any&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.888978] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kany\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.889024] (enpm673_final_proj) StderrLine: {'line': b'  274 |           auto value = boost::any_cast<std::\x1b[01;31m\x1b[Kany\x1b[m\x1b[K>(_value);\n'}
+[9.889068] (enpm673_final_proj) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.889111] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::any\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.889164] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kany\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.889208] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::any\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.889251] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kany_cast\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.889295] (enpm673_final_proj) StderrLine: {'line': b'  275 |           return std::\x1b[01;31m\x1b[Kany_cast\x1b[m\x1b[K<T>(value);\n'}
+[9.889338] (enpm673_final_proj) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.889381] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::any_cast\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[9.889425] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.889469] (enpm673_final_proj) StderrLine: {'line': b'  275 |           return std::any_cast<T\x1b[01;31m\x1b[K>\x1b[m\x1b[K(value);\n'}
+[9.889513] (enpm673_final_proj) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.956065] (-) TimerEvent: {}
+[10.056504] (-) TimerEvent: {}
+[10.157326] (-) TimerEvent: {}
+[10.258238] (-) TimerEvent: {}
+[10.358862] (-) TimerEvent: {}
+[10.459822] (-) TimerEvent: {}
+[10.560681] (-) TimerEvent: {}
+[10.661562] (-) TimerEvent: {}
+[10.762303] (-) TimerEvent: {}
+[10.863197] (-) TimerEvent: {}
+[10.964464] (-) TimerEvent: {}
+[11.065211] (-) TimerEvent: {}
+[11.166059] (-) TimerEvent: {}
+[11.266883] (-) TimerEvent: {}
+[11.367704] (-) TimerEvent: {}
+[11.401871] (enpm673_final_proj) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Element.hh:28\x1b[m\x1b[K,\n'}
+[11.402036] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Actor.hh:25\x1b[m\x1b[K,\n'}
+[11.402086] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/sdf.hh:2\x1b[m\x1b[K,\n'}
+[11.402131] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25\x1b[m\x1b[K,\n'}
+[11.402174] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/common.hh:8\x1b[m\x1b[K,\n'}
+[11.402217] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19\x1b[m\x1b[K,\n'}
+[11.402259] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/gazebo.hh:20\x1b[m\x1b[K,\n'}
+[11.402302] (enpm673_final_proj) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22\x1b[m\x1b[K:\n'}
+[11.402406] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string sdf::v9::ParamPrivate::TypeToString() const [with T = ignition::math::v6::Pose3<double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.402468] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:320:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[11.402512] (enpm673_final_proj) StderrLine: {'line': b'  320 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[11.402555] (enpm673_final_proj) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.406420] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string sdf::v9::ParamPrivate::TypeToString() const [with T = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.406648] (enpm673_final_proj) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/sdformat-9.8/sdf/Param.hh:320:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[11.406727] (enpm673_final_proj) StderrLine: {'line': b'  320 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[11.406772] (enpm673_final_proj) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.468296] (-) TimerEvent: {}
+[11.561517] (enpm673_final_proj) StderrLine: {'line': b'make[2]: *** [CMakeFiles/animated_box.dir/build.make:76: CMakeFiles/animated_box.dir/src/animated_box.cpp.o] Error 1\n'}
+[11.561934] (enpm673_final_proj) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/animated_box.dir/all] Error 2\n'}
+[11.562373] (enpm673_final_proj) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[11.568831] (-) TimerEvent: {}
+[11.581936] (enpm673_final_proj) CommandEnded: {'returncode': 2}
+[11.669216] (-) TimerEvent: {}
+[11.690614] (enpm673_final_proj) JobEnded: {'identifier': 'enpm673_final_proj', 'rc': 2}
+[11.694750] (-) EventReactorShutdown: {}

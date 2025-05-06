@@ -1,0 +1,11 @@
+source;share/enpm673_final_proj/hook/cmake_prefix_path.ps1
+source;share/enpm673_final_proj/hook/cmake_prefix_path.dsv
+source;share/enpm673_final_proj/hook/cmake_prefix_path.sh
+source;share/enpm673_final_proj/hook/pythonpath.ps1
+source;share/enpm673_final_proj/hook/pythonpath.dsv
+source;share/enpm673_final_proj/hook/pythonpath.sh
+source;share/enpm673_final_proj/local_setup.bash
+source;share/enpm673_final_proj/local_setup.dsv
+source;share/enpm673_final_proj/local_setup.ps1
+source;share/enpm673_final_proj/local_setup.sh
+source;share/enpm673_final_proj/local_setup.zsh

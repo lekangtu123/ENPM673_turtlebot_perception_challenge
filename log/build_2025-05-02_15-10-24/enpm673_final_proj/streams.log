@@ -1,0 +1,881 @@
+[0.018s] Invoking command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj
+[0.218s] -- The C compiler identification is GNU 9.4.0
+[0.324s] -- The CXX compiler identification is GNU 9.4.0
+[0.355s] -- Detecting C compiler ABI info
+[0.437s] -- Detecting C compiler ABI info - done
+[0.453s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.454s] -- Detecting C compile features
+[0.455s] -- Detecting C compile features - done
+[0.462s] -- Detecting CXX compiler ABI info
+[0.531s] -- Detecting CXX compiler ABI info - done
+[0.549s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.550s] -- Detecting CXX compile features
+[0.550s] -- Detecting CXX compile features - done
+[0.567s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.580s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.580s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.580s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.580s]   the cmake_policy command to set the policy and suppress this warning.
+[0.580s] 
+[0.580s] Call Stack (most recent call first):
+[0.580s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.580s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.581s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.581s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.581s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.581s]   CMakeLists.txt:9 (find_package)
+[0.581s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.581s] [0m
+[0.600s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.601s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.668s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.733s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.863s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.981s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[1.018s] -- Found FastRTPS: /opt/ros/galactic/include
+[1.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.249s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.256s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.289s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.293s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.354s] -- Looking for pthread_create in pthreads
+[1.406s] -- Looking for pthread_create in pthreads - not found
+[1.406s] -- Looking for pthread_create in pthread
+[1.462s] -- Looking for pthread_create in pthread - found
+[1.464s] -- Found Threads: TRUE
+[1.667s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[1.679s] [33mCMake Warning (dev) at /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:441 (message):
+[1.679s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.679s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.679s]   problems in calling code that expects `find_package` result variables
+[1.679s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.679s] Call Stack (most recent call first):
+[1.679s]   /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPkgConfig.cmake:114 (find_package_handle_standard_args)
+[1.679s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.679s]   CMakeLists.txt:13 (find_package)
+[1.679s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.679s] [0m
+[1.679s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
+[1.680s] -- Checking for module 'bullet>=2.82'
+[1.698s] --   Found bullet, version 2.88
+[1.847s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0")
+[1.920s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2")
+[1.995s] -- Found assimp: /usr/include (found version "5.0.0")
+[1.996s] [33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:24 (find_package):
+[1.996s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.996s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.996s]   set the policy and suppress this warning.
+[1.996s] 
+[1.996s] Call Stack (most recent call first):
+[1.996s]   /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)
+[1.997s]   /usr/share/dart/cmake/DARTConfig.cmake:63 (include)
+[1.997s]   /usr/share/dart/cmake/DARTConfig.cmake:123 (dart_traverse_components)
+[1.997s]   /usr/share/dart/cmake/DARTConfig.cmake:171 (dart_package_init)
+[1.997s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)
+[1.997s]   CMakeLists.txt:13 (find_package)
+[1.997s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.997s] [0m
+[2.041s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart
+[2.052s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):
+[2.052s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.052s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.052s]   set the policy and suppress this warning.
+[2.053s] 
+[2.053s] Call Stack (most recent call first):
+[2.053s]   CMakeLists.txt:13 (find_package)
+[2.053s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.053s] [0m
+[2.086s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time
+[2.122s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1")
+[2.132s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.150s] -- Searching for dependencies of ignition-math6
+[2.155s] -- Looking for OGRE...
+[2.155s] -- OGRE_PREFIX_WATCH changed.
+[2.160s] -- Checking for module 'OGRE'
+[2.180s] --   Found OGRE, version 1.9.0
+[2.230s] -- Found Ogre Ghadamon (1.9.0)
+[2.245s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.245s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):
+[2.245s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.246s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.246s]   set the policy and suppress this warning.
+[2.246s] 
+[2.246s] Call Stack (most recent call first):
+[2.246s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[2.246s]   CMakeLists.txt:13 (find_package)
+[2.246s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.246s] [0m
+[2.250s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):
+[2.251s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.251s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.251s]   set the policy and suppress this warning.
+[2.251s] 
+[2.251s] Call Stack (most recent call first):
+[2.251s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[2.251s]   CMakeLists.txt:13 (find_package)
+[2.251s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.251s] [0m
+[2.255s] -- Looking for OGRE_Paging...
+[2.267s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.267s] -- Looking for OGRE_Terrain...
+[2.279s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.279s] -- Looking for OGRE_Property...
+[2.290s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.290s] -- Looking for OGRE_RTShaderSystem...
+[2.300s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.300s] -- Looking for OGRE_Volume...
+[2.311s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.311s] -- Looking for OGRE_Overlay...
+[2.321s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.522s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.527s] -- Looking for ignition-transport8 -- found version 8.3.0
+[2.527s] -- Searching for dependencies of ignition-transport8
+[2.546s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3")
+[2.558s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.563s] -- Checking for module 'libzmq >= 4'
+[2.587s] --   Found libzmq, version 4.3.2
+[2.638s] -- Found ZeroMQ: TRUE (Required is at least version "4")
+[2.646s] -- Checking for module 'uuid'
+[2.665s] --   Found uuid, version 2.34.0
+[2.715s] -- Found UUID: TRUE
+[2.719s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.719s] -- Searching for dependencies of ignition-msgs5
+[2.738s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.745s] -- Checking for module 'tinyxml2'
+[2.764s] --   Found tinyxml2, version 6.2.0
+[2.818s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.824s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.824s] -- Searching for dependencies of ignition-common3
+[2.825s] -- Looking for dlfcn.h - found
+[2.827s] -- Looking for libdl - found
+[2.828s] -- Found DL: TRUE
+[2.842s] -- Searching for <ignition-common3> component [graphics]
+[2.846s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[2.846s] -- Searching for dependencies of ignition-common3-graphics
+[2.846s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.853s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[2.853s] -- Searching for dependencies of ignition-fuel_tools4
+[2.967s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")
+[2.979s] -- Checking for module 'jsoncpp'
+[2.999s] --   Found jsoncpp, version 1.7.4
+[3.049s] -- Found JSONCPP: TRUE
+[3.056s] -- Checking for module 'libzip'
+[3.076s] --   Found libzip, version 1.5.1
+[3.131s] -- Found ZIP: TRUE
+[3.132s] -- Looking for ignition-common3 -- found version 3.14.2
+[3.132s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.133s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[3.273s] -- Configuring done (3.2s)
+[3.288s] -- Generating done (0.0s)
+[3.289s] -- Build files have been written to: /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj
+[3.310s] Invoked command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/install/enpm673_final_proj
+[3.313s] Invoking command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj -- -j8 -l8
+[3.385s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_enpm673_final_proj.dir/src/enpm673_final_proj.cpp.o[0m
+[3.386s] [ 50%] [32mBuilding CXX object CMakeFiles/animated_box.dir/src/animated_box.cpp.o[0m
+[3.388s] [ 50%] Built target ament_cmake_python_symlink_enpm673_module
+[3.408s] [ 75%] [32m[1mLinking CXX executable cpp_enpm673_final_proj[0m
+[3.517s] [ 75%] Built target cpp_enpm673_final_proj
+[3.608s] running egg_info
+[3.609s] creating enpm673_module.egg-info
+[3.609s] writing enpm673_module.egg-info/PKG-INFO
+[3.609s] writing dependency_links to enpm673_module.egg-info/dependency_links.txt
+[3.609s] writing top-level names to enpm673_module.egg-info/top_level.txt
+[3.614s] writing manifest file 'enpm673_module.egg-info/SOURCES.txt'
+[3.656s] reading manifest file 'enpm673_module.egg-info/SOURCES.txt'
+[3.656s] writing manifest file 'enpm673_module.egg-info/SOURCES.txt'
+[3.681s] [ 75%] Built target ament_cmake_python_build_enpm673_module_egg
+[5.536s] In file included from [01m[K/usr/include/ignition/math6/gz/math/Box.hh:23[m[K,
+[5.536s]                  from [01m[K/usr/include/ignition/math6/gz/math.hh:30[m[K,
+[5.536s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.536s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.536s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.536s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.536s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.536s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.536s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.536s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.536s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.536s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.536s] [01m[K/usr/include/ignition/math6/gz/math/Plane.hh:133:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.537s]   133 |       public: std::[01;31m[Koptional[m[K<Vector3<T>> Intersection(
+[5.537s]       |                    [01;31m[K^~~~~~~~[m[K
+[5.537s] [01m[K/usr/include/ignition/math6/gz/math/Plane.hh:133:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[5.537s]   133 |       public: [01;36m[Kstd[m[K::optional<Vector3<T>> Intersection(
+[5.537s]       |               [01;36m[K^~~[m[K
+[5.537s] In file included from [01m[K/usr/include/ignition/math6/gz/math.hh:30[m[K,
+[5.537s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.537s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.537s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.537s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.537s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.537s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.537s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.537s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.537s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.537s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.538s] [01m[K/usr/include/ignition/math6/gz/math/Box.hh:151:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.538s]   151 |       public: std::[01;31m[Koptional[m[K<Vector3<Precision>>
+[5.538s]       |                    [01;31m[K^~~~~~~~[m[K
+[5.538s] [01m[K/usr/include/ignition/math6/gz/math/Box.hh:151:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[5.538s]   151 |       public: [01;36m[Kstd[m[K::optional<Vector3<Precision>>
+[5.538s]       |               [01;36m[K^~~[m[K
+[5.540s] In file included from [01m[K/usr/include/ignition/math6/gz/math/Box.hh:224[m[K,
+[5.540s]                  from [01m[K/usr/include/ignition/math6/gz/math.hh:30[m[K,
+[5.540s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.540s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.540s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.540s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.540s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.540s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.540s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.540s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.540s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.540s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.540s] [01m[K/usr/include/ignition/math6/gz/math/detail/Box.hh:237:6:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.540s]   237 | std::[01;31m[Koptional[m[K<Vector3<T>>
+[5.540s]       |      [01;31m[K^~~~~~~~[m[K
+[5.541s] [01m[K/usr/include/ignition/math6/gz/math/detail/Box.hh:237:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[5.541s]   237 | [01;36m[Kstd[m[K::optional<Vector3<T>>
+[5.541s]       | [01;36m[K^~~[m[K
+[5.541s] In file included from [01m[K/usr/include/ignition/math6/gz/math.hh:31[m[K,
+[5.541s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.541s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.541s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.541s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.541s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.541s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.541s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.542s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.542s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.542s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.542s] [01m[K/usr/include/ignition/math6/gz/math/Capsule.hh:91:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.542s]    91 |       public: std::[01;31m[Koptional[m[K< MassMatrix3<Precision> > MassMatrix() const;
+[5.542s]       |                    [01;31m[K^~~~~~~~[m[K
+[5.542s] [01m[K/usr/include/ignition/math6/gz/math/Capsule.hh:91:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[5.542s]    91 |       public: [01;36m[Kstd[m[K::optional< MassMatrix3<Precision> > MassMatrix() const;
+[5.542s]       |               [01;36m[K^~~[m[K
+[5.543s] In file included from [01m[K/usr/include/ignition/math6/gz/math/Capsule.hh:149[m[K,
+[5.543s]                  from [01m[K/usr/include/ignition/math6/gz/math.hh:31[m[K,
+[5.543s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.543s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.543s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.543s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.543s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.543s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.543s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.543s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.543s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.543s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.543s] [01m[K/usr/include/ignition/math6/gz/math/detail/Capsule.hh:100:6:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.543s]   100 | std::[01;31m[Koptional[m[K< MassMatrix3<T> > Capsule<T>::MassMatrix() const
+[5.543s]       |      [01;31m[K^~~~~~~~[m[K
+[5.543s] [01m[K/usr/include/ignition/math6/gz/math/detail/Capsule.hh:100:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[5.543s]   100 | [01;36m[Kstd[m[K::optional< MassMatrix3<T> > Capsule<T>::MassMatrix() const
+[5.543s]       | [01;36m[K^~~[m[K
+[5.552s] In file included from [01m[K/usr/include/ignition/math6/gz/math.hh:35[m[K,
+[5.552s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.552s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.552s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.552s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.552s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.552s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.553s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.553s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.553s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.553s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.553s] [01m[K/usr/include/ignition/math6/gz/math/Ellipsoid.hh:77:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.553s]    77 |       public: std::[01;31m[Koptional[m[K< MassMatrix3<Precision> > MassMatrix() const;
+[5.553s]       |                    [01;31m[K^~~~~~~~[m[K
+[5.553s] [01m[K/usr/include/ignition/math6/gz/math/Ellipsoid.hh:77:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[5.553s]    77 |       public: [01;36m[Kstd[m[K::optional< MassMatrix3<Precision> > MassMatrix() const;
+[5.553s]       |               [01;36m[K^~~[m[K
+[5.553s] In file included from [01m[K/usr/include/ignition/math6/gz/math/Ellipsoid.hh:132[m[K,
+[5.553s]                  from [01m[K/usr/include/ignition/math6/gz/math.hh:35[m[K,
+[5.553s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.553s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.553s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.553s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.553s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.553s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.553s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.553s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.553s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.553s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.554s] [01m[K/usr/include/ignition/math6/gz/math/detail/Ellipsoid.hh:77:6:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.554s]    77 | std::[01;31m[Koptional[m[K< MassMatrix3<T> > Ellipsoid<T>::MassMatrix() const
+[5.554s]       |      [01;31m[K^~~~~~~~[m[K
+[5.554s] [01m[K/usr/include/ignition/math6/gz/math/detail/Ellipsoid.hh:77:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[5.554s]    77 | [01;36m[Kstd[m[K::optional< MassMatrix3<T> > Ellipsoid<T>::MassMatrix() const
+[5.554s]       | [01;36m[K^~~[m[K
+[5.586s] In file included from [01m[K/usr/include/ignition/math6/gz/math.hh:57[m[K,
+[5.587s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.587s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.587s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.587s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.587s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.587s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.587s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.587s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.587s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.588s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.588s] [01m[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:[m[K In member function ‘[01m[KT ignition::math::v6::Polynomial3<T>::Evaluate(const T&) const[m[K’:
+[5.588s] [01m[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:74:25:[m[K [01;35m[Kwarning: [m[Kcomma-separated list in using-declaration only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.588s]    74 |         using std::isnan[01;35m[K,[m[K std::isfinite;
+[5.588s]       |                         [01;35m[K^[m[K
+[5.588s] [01m[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:81:25:[m[K [01;35m[Kwarning: [m[Kcomma-separated list in using-declaration only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.588s]    81 |           using std::abs[01;35m[K,[m[K std::copysign;
+[5.588s]       |                         [01;35m[K^[m[K
+[5.588s] [01m[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:[m[K In member function ‘[01m[KT ignition::math::v6::Polynomial3<T>::Minimum(const ignition::math::v6::Interval<T>&, T&) const[m[K’:
+[5.588s] [01m[K/usr/include/ignition/math6/gz/math/Polynomial3.hh:141:23:[m[K [01;35m[Kwarning: [m[Kcomma-separated list in using-declaration only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.588s]   141 |         using std::abs[01;35m[K,[m[K std::sqrt;  // enable ADL
+[5.588s]       |                       [01;35m[K^[m[K
+[5.789s] In file included from [01m[K/usr/include/ignition/math6/gz/math.hh:67[m[K,
+[5.790s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.790s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.790s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.790s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.790s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.790s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.790s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.790s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.791s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.791s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.791s] [01m[K/usr/include/ignition/math6/gz/math/Sphere.hh:[m[K At global scope:
+[5.791s] [01m[K/usr/include/ignition/math6/gz/math/Sphere.hh:109:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.791s]   109 |       public: std::[01;31m[Koptional[m[K<Vector3<Precision>>
+[5.791s]       |                    [01;31m[K^~~~~~~~[m[K
+[5.791s] [01m[K/usr/include/ignition/math6/gz/math/Sphere.hh:109:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[5.791s]   109 |       public: [01;36m[Kstd[m[K::optional<Vector3<Precision>>
+[5.791s]       |               [01;36m[K^~~[m[K
+[5.791s] In file included from [01m[K/usr/include/ignition/math6/gz/math/Sphere.hh:157[m[K,
+[5.791s]                  from [01m[K/usr/include/ignition/math6/gz/math.hh:67[m[K,
+[5.791s]                  from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+[5.791s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:33[m[K,
+[5.791s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.791s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.791s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.791s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.791s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.792s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.792s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.792s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.792s] [01m[K/usr/include/ignition/math6/gz/math/detail/Sphere.hh:123:6:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.792s]   123 | std::[01;31m[Koptional[m[K<Vector3<T>>
+[5.792s]       |      [01;31m[K^~~~~~~~[m[K
+[5.792s] [01m[K/usr/include/ignition/math6/gz/math/detail/Sphere.hh:123:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[5.792s]   123 | [01;36m[Kstd[m[K::optional<Vector3<T>>
+[5.792s]       | [01;36m[K^~~[m[K
+[5.832s] In file included from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[5.833s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.833s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.833s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.833s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.833s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.833s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.833s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.833s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:72:57:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[5.834s]    72 |   template<class T> ParamStreamer(T) -> ParamStreamer<T>[01;31m[K;[m[K
+[5.834s]       |                                                         [01;31m[K^[m[K
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kvariant[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.834s]    83 |                            ParamStreamer<std::[01;31m[Kvariant[m[K<Ts...>> sv)
+[5.834s]       |                                               [01;31m[K^~~~~~~[m[K
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::variant[m[K’ is only available from C++17 onwards
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kvariant[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::variant[m[K’ is only available from C++17 onwards
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:57:[m[K [01;31m[Kerror: [m[Kexpected parameter pack before ‘[01m[K...[m[K’
+[5.834s]    83 |                            ParamStreamer<std::variant<Ts[01;31m[K...[m[K>> sv)
+[5.834s]       |                                                         [01;31m[K^~~[m[K
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kvariant[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.834s]    83 |                            ParamStreamer<std::[01;31m[Kvariant[m[K<Ts...>> sv)
+[5.834s]       |                                               [01;31m[K^~~~~~~[m[K
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::variant[m[K’ is only available from C++17 onwards
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kvariant[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::variant[m[K’ is only available from C++17 onwards
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:57:[m[K [01;31m[Kerror: [m[Kexpected parameter pack before ‘[01m[K...[m[K’
+[5.834s]    83 |                            ParamStreamer<std::variant<Ts[01;31m[K...[m[K>> sv)
+[5.834s]       |                                                         [01;31m[K^~~[m[K
+[5.834s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.835s]    83 |                            ParamStreamer<std::variant<Ts...[01;31m[K>>[m[K sv)
+[5.835s]       |                                                            [01;31m[K^~[m[K
+[5.835s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kvariant[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.835s]    83 |                            ParamStreamer<std::[01;31m[Kvariant[m[K<Ts...>> sv)
+[5.835s]       |                                               [01;31m[K^~~~~~~[m[K
+[5.835s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::variant[m[K’ is only available from C++17 onwards
+[5.835s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kvariant[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.835s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:47:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::variant[m[K’ is only available from C++17 onwards
+[5.835s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:57:[m[K [01;31m[Kerror: [m[Kexpected parameter pack before ‘[01m[K...[m[K’
+[5.835s]    83 |                            ParamStreamer<std::variant<Ts[01;31m[K...[m[K>> sv)
+[5.835s]       |                                                         [01;31m[K^~~[m[K
+[5.835s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.835s]    83 |                            ParamStreamer<std::variant<Ts...[01;31m[K>>[m[K sv)
+[5.835s]       |                                                            [01;31m[K^~[m[K
+[5.835s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:28:[m[K [01;31m[Kerror: [m[K‘[01m[KParamStreamer[m[K’ is not a type
+[5.835s]    83 |                            [01;31m[KParamStreamer[m[K<std::variant<Ts...>> sv)
+[5.835s]       |                            [01;31m[K^~~~~~~~~~~~~[m[K
+[5.835s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:83:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[5.836s]    83 |                            ParamStreamer[01;31m[K<[m[Kstd::variant<Ts...>> sv)
+[5.836s]       |                                         [01;31m[K^[m[K
+[5.836s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K In function ‘[01m[Kstd::ostream& sdf::v9::operator<<(std::ostream&, int)[m[K’:
+[5.836s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:85:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisit[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.836s]    85 |     std::[01;31m[Kvisit[m[K([&os](auto const &v)
+[5.836s]       |          [01;31m[K^~~~~[m[K
+[5.836s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:85:10:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::visit[m[K’ is only available from C++17 onwards
+[5.836s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K In lambda function:
+[5.836s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:87:28:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K{[m[K’ token
+[5.836s]    87 |         os << ParamStreamer[01;31m[K{[m[Kv};
+[5.836s]       |                            [01;31m[K^[m[K
+[5.836s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K In function ‘[01m[Kstd::ostream& sdf::v9::operator<<(std::ostream&, int)[m[K’:
+[5.836s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:88:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ksv[m[K’ was not declared in this scope
+[5.836s]    88 |       }, [01;31m[Ksv[m[K.val);
+[5.836s]       |          [01;31m[K^~[m[K
+[5.837s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K At global scope:
+[5.837s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:173:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::any[m[K’ has not been declared
+[5.837s]   173 |     public: bool GetAny(std::[01;31m[Kany[m[K &_anyVal) const;
+[5.837s]       |                              [01;31m[K^~~[m[K
+[5.842s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:243:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.842s]   243 |     public: std::function<std::[01;31m[Kany[m[K ()> updateFunc;
+[5.842s]       |                                [01;31m[K^~~[m[K
+[5.842s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:243:32:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::any[m[K’ is only available from C++17 onwards
+[5.842s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:243:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.843s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:243:32:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::any[m[K’ is only available from C++17 onwards
+[5.843s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:243:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.843s]   243 |     public: std::function<std::any ()[01;31m[K>[m[K updateFunc;
+[5.843s]       |                                      [01;31m[K^[m[K
+[5.843s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:249:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kvariant[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.843s]   249 |     public: typedef std::[01;31m[Kvariant[m[K<bool, char, std::string, int, std::uint64_t,
+[5.843s]       |                          [01;31m[K^~~~~~~[m[K
+[5.843s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:249:21:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::variant[m[K’ is only available from C++17 onwards
+[5.843s]   249 |     public: typedef [01;36m[Kstd[m[K::variant<bool, char, std::string, int, std::uint64_t,
+[5.843s]       |                     [01;36m[K^~~[m[K
+[5.847s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:260:13:[m[K [01;31m[Kerror: [m[K‘[01m[KParamVariant[m[K’ does not name a type
+[5.847s]   260 |     public: [01;31m[KParamVariant[m[K value;
+[5.847s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[5.852s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:263:13:[m[K [01;31m[Kerror: [m[K‘[01m[KParamVariant[m[K’ does not name a type
+[5.852s]   263 |     public: [01;31m[KParamVariant[m[K defaultValue;
+[5.852s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[5.852s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:273:37:[m[K [01;31m[Kerror: [m[K‘[01m[KParamVariant[m[K’ has not been declared
+[5.853s]   273 |                                     [01;31m[KParamVariant[m[K &_valueToSet) const;
+[5.853s]       |                                     [01;31m[K^~~~~~~~~~~~[m[K
+[5.853s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K In member function ‘[01m[Kstd::string sdf::v9::ParamPrivate::TypeToString() const[m[K’:
+[5.853s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:286:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.853s]   286 |     if [01;35m[Kconstexpr[m[K (std::is_same_v<T, bool>)
+[5.853s]       |        [01;35m[K^~~~~~~~~[m[K
+[5.854s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:286:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.854s]   286 |     if constexpr (std::[01;31m[Kis_same_v[m[K<T, bool>)
+[5.854s]       |                        [01;31m[K^~~~~~~~~[m[K
+[5.854s]       |                        [32m[Kis_same[m[K
+[5.854s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:286:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.854s]   286 |     if constexpr (std::is_same_v<T[01;31m[K,[m[K bool>)
+[5.854s]       |                                   [01;31m[K^[m[K
+[5.854s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:286:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+[5.854s]   286 |     if constexpr (std::is_same_v<T, [01;31m[Kbool[m[K>)
+[5.854s]       |                                     [01;31m[K^~~~[m[K
+[5.854s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:286:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kbool[m[K’
+[5.855s]   286 |     if constexpr [34m[K([m[Kstd::is_same_v<T,[01;31m[K [m[K[32m[Kbool[m[K>)
+[5.855s]       |                  [34m[K~[m[K                 [01;31m[K^[m[K[32m[K~~~~[m[K
+[5.855s]       |                                    [32m[K)[m[K
+[5.855s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:288:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.855s]   288 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, char>)
+[5.855s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.855s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:288:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.855s]   288 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, char>)
+[5.855s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.855s]       |                             [32m[Kis_same[m[K
+[5.855s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:288:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.855s]   288 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K char>)
+[5.855s]       |                                        [01;31m[K^[m[K
+[5.856s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:288:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+[5.856s]   288 |     else if constexpr (std::is_same_v<T, [01;31m[Kchar[m[K>)
+[5.856s]       |                                          [01;31m[K^~~~[m[K
+[5.856s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:288:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kchar[m[K’
+[5.856s]   288 |     else if constexpr [34m[K([m[Kstd::is_same_v<T,[01;31m[K [m[K[32m[Kchar[m[K>)
+[5.856s]       |                       [34m[K~[m[K                 [01;31m[K^[m[K[32m[K~~~~[m[K
+[5.856s]       |                                         [32m[K)[m[K
+[5.856s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:290:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.856s]   290 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, std::string>)
+[5.857s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.857s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:290:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.857s]   290 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, std::string>)
+[5.858s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.858s]       |                             [32m[Kis_same[m[K
+[5.858s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:290:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.858s]   290 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K std::string>)
+[5.858s]       |                                        [01;31m[K^[m[K
+[5.858s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:290:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.858s]   290 |     else if constexpr (std::is_same_v<T, std::string[01;31m[K>[m[K)
+[5.858s]       |                                                     [01;31m[K^[m[K
+[5.858s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:290:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.858s]   290 |     else if constexpr (std::is_same_v<T, std::string>[01;31m[K)[m[K
+[5.858s]       |                                                      [01;31m[K^[m[K
+[5.858s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:292:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.859s]   292 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, int>)
+[5.859s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.859s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:292:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.859s]   292 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, int>)
+[5.859s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.859s]       |                             [32m[Kis_same[m[K
+[5.859s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:292:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.859s]   292 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K int>)
+[5.859s]       |                                        [01;31m[K^[m[K
+[5.859s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:292:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[5.859s]   292 |     else if constexpr (std::is_same_v<T, [01;31m[Kint[m[K>)
+[5.859s]       |                                          [01;31m[K^~~[m[K
+[5.859s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:292:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kint[m[K’
+[5.859s]   292 |     else if constexpr [34m[K([m[Kstd::is_same_v<T,[01;31m[K [m[K[32m[Kint[m[K>)
+[5.859s]       |                       [34m[K~[m[K                 [01;31m[K^[m[K[32m[K~~~[m[K
+[5.859s]       |                                         [32m[K)[m[K
+[5.860s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:294:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.860s]   294 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, std::uint64_t>)
+[5.860s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.860s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:294:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.860s]   294 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, std::uint64_t>)
+[5.860s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.860s]       |                             [32m[Kis_same[m[K
+[5.860s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:294:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.860s]   294 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K std::uint64_t>)
+[5.860s]       |                                        [01;31m[K^[m[K
+[5.860s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:294:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.860s]   294 |     else if constexpr (std::is_same_v<T, std::uint64_t[01;31m[K>[m[K)
+[5.861s]       |                                                       [01;31m[K^[m[K
+[5.861s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:294:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.861s]   294 |     else if constexpr (std::is_same_v<T, std::uint64_t>[01;31m[K)[m[K
+[5.861s]       |                                                        [01;31m[K^[m[K
+[5.861s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:296:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.861s]   296 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, unsigned int>)
+[5.861s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.861s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:296:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.861s]   296 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, unsigned int>)
+[5.861s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.861s]       |                             [32m[Kis_same[m[K
+[5.861s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:296:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.861s]   296 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K unsigned int>)
+[5.861s]       |                                        [01;31m[K^[m[K
+[5.862s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:296:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kunsigned[m[K’
+[5.862s]   296 |     else if constexpr (std::is_same_v<T, [01;31m[Kunsigned[m[K int>)
+[5.862s]       |                                          [01;31m[K^~~~~~~~[m[K
+[5.862s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:296:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kunsigned[m[K’
+[5.862s]   296 |     else if constexpr [34m[K([m[Kstd::is_same_v<T,[01;31m[K [m[K[32m[Kunsigned[m[K int>)
+[5.862s]       |                       [34m[K~[m[K                 [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+[5.862s]       |                                         [32m[K)[m[K
+[5.862s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:298:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.862s]   298 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, double>)
+[5.862s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.862s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:298:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.862s]   298 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, double>)
+[5.862s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.863s]       |                             [32m[Kis_same[m[K
+[5.863s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:298:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.863s]   298 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K double>)
+[5.863s]       |                                        [01;31m[K^[m[K
+[5.863s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:298:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[5.863s]   298 |     else if constexpr (std::is_same_v<T, [01;31m[Kdouble[m[K>)
+[5.863s]       |                                          [01;31m[K^~~~~~[m[K
+[5.863s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:298:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kdouble[m[K’
+[5.863s]   298 |     else if constexpr [34m[K([m[Kstd::is_same_v<T,[01;31m[K [m[K[32m[Kdouble[m[K>)
+[5.863s]       |                       [34m[K~[m[K                 [01;31m[K^[m[K[32m[K~~~~~~[m[K
+[5.864s]       |                                         [32m[K)[m[K
+[5.864s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:300:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.864s]   300 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, float>)
+[5.864s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.864s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:300:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.864s]   300 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, float>)
+[5.864s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.865s]       |                             [32m[Kis_same[m[K
+[5.865s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:300:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.865s]   300 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K float>)
+[5.865s]       |                                        [01;31m[K^[m[K
+[5.865s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:300:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.865s]   300 |     else if constexpr (std::is_same_v<T, [01;31m[Kfloat[m[K>)
+[5.865s]       |                                          [01;31m[K^~~~~[m[K
+[5.865s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:300:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kfloat[m[K’
+[5.865s]   300 |     else if constexpr [34m[K([m[Kstd::is_same_v<T,[01;31m[K [m[K[32m[Kfloat[m[K>)
+[5.865s]       |                       [34m[K~[m[K                 [01;31m[K^[m[K[32m[K~~~~~[m[K
+[5.865s]       |                                         [32m[K)[m[K
+[5.865s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:302:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.866s]   302 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, sdf::Time>)
+[5.866s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.866s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:302:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.866s]   302 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, sdf::Time>)
+[5.866s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.866s]       |                             [32m[Kis_same[m[K
+[5.866s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:302:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.866s]   302 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K sdf::Time>)
+[5.866s]       |                                        [01;31m[K^[m[K
+[5.866s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:302:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.866s]   302 |     else if constexpr (std::is_same_v<T, sdf::Time[01;31m[K>[m[K)
+[5.866s]       |                                                   [01;31m[K^[m[K
+[5.866s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:302:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.867s]   302 |     else if constexpr (std::is_same_v<T, sdf::Time>[01;31m[K)[m[K
+[5.867s]       |                                                    [01;31m[K^[m[K
+[5.867s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:304:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.867s]   304 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, ignition::math::Angle>)
+[5.867s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.867s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:304:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.867s]   304 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, ignition::math::Angle>)
+[5.867s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.867s]       |                             [32m[Kis_same[m[K
+[5.867s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:304:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.867s]   304 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K ignition::math::Angle>)
+[5.867s]       |                                        [01;31m[K^[m[K
+[5.867s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:304:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.867s]   304 |     else if constexpr (std::is_same_v<T, ignition::math::Angle[01;31m[K>[m[K)
+[5.867s]       |                                                               [01;31m[K^[m[K
+[5.867s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:304:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.868s]   304 |     else if constexpr (std::is_same_v<T, ignition::math::Angle>[01;31m[K)[m[K
+[5.868s]       |                                                                [01;31m[K^[m[K
+[5.868s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:306:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.868s]   306 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, ignition::math::Color>)
+[5.868s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.868s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:306:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.868s]   306 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, ignition::math::Color>)
+[5.868s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.868s]       |                             [32m[Kis_same[m[K
+[5.868s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:306:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.869s]   306 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K ignition::math::Color>)
+[5.869s]       |                                        [01;31m[K^[m[K
+[5.869s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:306:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.869s]   306 |     else if constexpr (std::is_same_v<T, ignition::math::Color[01;31m[K>[m[K)
+[5.869s]       |                                                               [01;31m[K^[m[K
+[5.869s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:306:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.869s]   306 |     else if constexpr (std::is_same_v<T, ignition::math::Color>[01;31m[K)[m[K
+[5.869s]       |                                                                [01;31m[K^[m[K
+[5.869s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:308:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.869s]   308 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, ignition::math::Vector2i>)
+[5.869s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.869s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:308:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.869s]   308 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, ignition::math::Vector2i>)
+[5.869s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.869s]       |                             [32m[Kis_same[m[K
+[5.869s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:308:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.870s]   308 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K ignition::math::Vector2i>)
+[5.870s]       |                                        [01;31m[K^[m[K
+[5.870s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:308:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.870s]   308 |     else if constexpr (std::is_same_v<T, ignition::math::Vector2i[01;31m[K>[m[K)
+[5.870s]       |                                                                  [01;31m[K^[m[K
+[5.870s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:308:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.870s]   308 |     else if constexpr (std::is_same_v<T, ignition::math::Vector2i>[01;31m[K)[m[K
+[5.870s]       |                                                                   [01;31m[K^[m[K
+[5.870s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:310:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.870s]   310 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, ignition::math::Vector2d>)
+[5.870s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.870s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:310:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.870s]   310 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, ignition::math::Vector2d>)
+[5.870s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.870s]       |                             [32m[Kis_same[m[K
+[5.870s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:310:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.870s]   310 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K ignition::math::Vector2d>)
+[5.870s]       |                                        [01;31m[K^[m[K
+[5.871s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:310:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.871s]   310 |     else if constexpr (std::is_same_v<T, ignition::math::Vector2d[01;31m[K>[m[K)
+[5.871s]       |                                                                  [01;31m[K^[m[K
+[5.871s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:310:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.871s]   310 |     else if constexpr (std::is_same_v<T, ignition::math::Vector2d>[01;31m[K)[m[K
+[5.871s]       |                                                                   [01;31m[K^[m[K
+[5.871s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:312:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.871s]   312 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, ignition::math::Vector3d>)
+[5.871s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.871s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:312:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.871s]   312 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, ignition::math::Vector3d>)
+[5.871s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.871s]       |                             [32m[Kis_same[m[K
+[5.871s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:312:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.871s]   312 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K ignition::math::Vector3d>)
+[5.871s]       |                                        [01;31m[K^[m[K
+[5.871s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:312:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.871s]   312 |     else if constexpr (std::is_same_v<T, ignition::math::Vector3d[01;31m[K>[m[K)
+[5.871s]       |                                                                  [01;31m[K^[m[K
+[5.871s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:312:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.872s]   312 |     else if constexpr (std::is_same_v<T, ignition::math::Vector3d>[01;31m[K)[m[K
+[5.872s]       |                                                                   [01;31m[K^[m[K
+[5.872s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:314:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.872s]   314 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, ignition::math::Quaterniond>)
+[5.872s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.872s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:314:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.872s]   314 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, ignition::math::Quaterniond>)
+[5.872s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.872s]       |                             [32m[Kis_same[m[K
+[5.872s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:314:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.872s]   314 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K ignition::math::Quaterniond>)
+[5.872s]       |                                        [01;31m[K^[m[K
+[5.872s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:314:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.872s]   314 |     else if constexpr (std::is_same_v<T, ignition::math::Quaterniond[01;31m[K>[m[K)
+[5.872s]       |                                                                     [01;31m[K^[m[K
+[5.872s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:314:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.873s]   314 |     else if constexpr (std::is_same_v<T, ignition::math::Quaterniond>[01;31m[K)[m[K
+[5.873s]       |                                                                      [01;31m[K^[m[K
+[5.873s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:316:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.873s]   316 |     else if [01;35m[Kconstexpr[m[K (std::is_same_v<T, ignition::math::Pose3d>)
+[5.873s]       |             [01;35m[K^~~~~~~~~[m[K
+[5.873s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:316:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+[5.873s]   316 |     else if constexpr (std::[01;31m[Kis_same_v[m[K<T, ignition::math::Pose3d>)
+[5.873s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.873s]       |                             [32m[Kis_same[m[K
+[5.873s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:316:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.873s]   316 |     else if constexpr (std::is_same_v<T[01;31m[K,[m[K ignition::math::Pose3d>)
+[5.873s]       |                                        [01;31m[K^[m[K
+[5.873s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:316:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.873s]   316 |     else if constexpr (std::is_same_v<T, ignition::math::Pose3d[01;31m[K>[m[K)
+[5.873s]       |                                                                [01;31m[K^[m[K
+[5.873s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:316:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.873s]   316 |     else if constexpr (std::is_same_v<T, ignition::math::Pose3d>[01;31m[K)[m[K
+[5.873s]       |                                                                 [01;31m[K^[m[K
+[5.873s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K In member function ‘[01m[Kbool sdf::v9::Param::Get(T&) const[m[K’:
+[5.873s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:353:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_if[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kget_time[m[K’?
+[5.873s]   353 |     T *value = std::[01;31m[Kget_if[m[K<T>(&this->dataPtr->value);
+[5.873s]       |                     [01;31m[K^~~~~~[m[K
+[5.874s]       |                     [32m[Kget_time[m[K
+[5.874s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:353:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.874s]   353 |     T *value = std::get_if<T[01;31m[K>[m[K(&this->dataPtr->value);
+[5.874s]       |                             [01;31m[K^[m[K
+[5.874s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:353:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass sdf::v9::ParamPrivate[m[K’ has no member named ‘[01m[Kvalue[m[K’
+[5.874s]   353 |     T *value = std::get_if<T>(&this->dataPtr->[01;31m[Kvalue[m[K);
+[5.874s]       |                                               [01;31m[K^~~~~[m[K
+[5.874s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:368:21:[m[K [01;31m[Kerror: [m[K‘[01m[KParamVariant[m[K’ is not a member of ‘[01m[Ksdf::v9::ParamPrivate[m[K’
+[5.875s]   368 |       ParamPrivate::[01;31m[KParamVariant[m[K pv;
+[5.875s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[5.875s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:369:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kpv[m[K’ was not declared in this scope
+[5.875s]   369 |       bool success = this->dataPtr->ValueFromStringImpl(typeStr, valueStr, [01;31m[Kpv[m[K);
+[5.875s]       |                                                                            [01;31m[K^~[m[K
+[5.875s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K In member function ‘[01m[Kbool sdf::v9::Param::GetDefault(T&) const[m[K’:
+[5.875s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:406:26:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K{[m[K’ token
+[5.875s]   406 |       ss << ParamStreamer[01;31m[K{[m[Kthis->dataPtr->defaultValue};
+[5.875s]       |                          [01;31m[K^[m[K
+[5.875s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K In member function ‘[01m[Kbool sdf::v9::Param::IsType() const[m[K’:
+[5.875s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:426:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kholds_alternative[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[5.875s]   426 |     return std::[01;31m[Kholds_alternative[m[K<Type>(this->dataPtr->value);
+[5.875s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.875s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:426:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.875s]   426 |     return std::holds_alternative<Type[01;31m[K>[m[K(this->dataPtr->value);
+[5.875s]       |                                       [01;31m[K^[m[K
+[5.875s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:426:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass sdf::v9::ParamPrivate[m[K’ has no member named ‘[01m[Kvalue[m[K’
+[5.875s]   426 |     return std::holds_alternative<Type>(this->dataPtr->[01;31m[Kvalue[m[K);
+[5.876s]       |                                                        [01;31m[K^~~~~[m[K
+[5.876s] In file included from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[5.876s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[5.876s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[5.876s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[5.876s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[5.876s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[5.876s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[5.876s] [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:[m[K At global scope:
+[5.876s] [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:279:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[5.876s]   279 |     public: std::[01;31m[Kany[m[K GetAny(const std::string &_key = "") const;
+[5.876s]       |                  [01;31m[K^~~[m[K
+[5.876s] [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:279:13:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::any[m[K’ is only available from C++17 onwards
+[5.876s]   279 |     public: [01;36m[Kstd[m[K::any GetAny(const std::string &_key = "") const;
+[5.876s]       |             [01;36m[K^~~[m[K
+[9.631s] In file included from [01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:42[m[K,
+[9.631s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Entity.hh:25[m[K,
+[9.631s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:30[m[K,
+[9.631s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27[m[K,
+[9.632s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2[m[K,
+[9.632s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24[m[K:
+[9.632s] [01m[K/usr/include/ignition/transport8/ignition/transport/NodeShared.hh:298:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[9.632s]   298 |       public: std::[01;31m[Koptional[m[K<TopicStatistics> TopicStats(
+[9.632s]       |                    [01;31m[K^~~~~~~~[m[K
+[9.632s] [01m[K/usr/include/ignition/transport8/ignition/transport/NodeShared.hh:298:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[9.632s]   298 |       public: [01;36m[Kstd[m[K::optional<TopicStatistics> TopicStats(
+[9.632s]       |               [01;36m[K^~~[m[K
+[9.670s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/Entity.hh:25[m[K,
+[9.670s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:30[m[K,
+[9.670s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27[m[K,
+[9.670s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2[m[K,
+[9.670s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24[m[K:
+[9.670s] [01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:740:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[9.670s]   740 |       public: std::[01;31m[Koptional[m[K<TopicStatistics> TopicStats(
+[9.670s]       |                    [01;31m[K^~~~~~~~[m[K
+[9.671s] [01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:740:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[9.671s]   740 |       public: [01;36m[Kstd[m[K::optional<TopicStatistics> TopicStats(
+[9.671s]       |               [01;36m[K^~~[m[K
+[9.696s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/Entity.hh:35[m[K,
+[9.696s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:30[m[K,
+[9.696s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27[m[K,
+[9.697s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2[m[K,
+[9.697s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24[m[K:
+[9.697s] [01m[K/usr/include/gazebo-11/gazebo/physics/Base.hh:342:28:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[9.697s]   342 |       public: virtual std::[01;31m[Koptional[m[K<sdf::SemanticPose> SDFSemanticPose() const;
+[9.697s]       |                            [01;31m[K^~~~~~~~[m[K
+[9.697s] [01m[K/usr/include/gazebo-11/gazebo/physics/Base.hh:342:23:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[9.697s]   342 |       public: virtual [01;36m[Kstd[m[K::optional<sdf::SemanticPose> SDFSemanticPose() const;
+[9.697s]       |                       [01;36m[K^~~[m[K
+[9.707s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27[m[K,
+[9.707s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2[m[K,
+[9.707s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24[m[K:
+[9.707s] [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:486:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[9.707s]   486 |       public: std::[01;31m[Koptional[m[K<sdf::SemanticPose> SDFSemanticPose() const override;
+[9.707s]       |                    [01;31m[K^~~~~~~~[m[K
+[9.707s] [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:486:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[9.707s]   486 |       public: [01;36m[Kstd[m[K::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+[9.707s]       |               [01;36m[K^~~[m[K
+[9.791s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25[m[K,
+[9.791s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:6[m[K,
+[9.792s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24[m[K:
+[9.792s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:594:28:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[9.792s]   594 |       public: virtual std::[01;31m[Koptional[m[K<sdf::SemanticPose> SDFSemanticPose()
+[9.792s]       |                            [01;31m[K^~~~~~~~[m[K
+[9.792s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:594:23:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[9.792s]   594 |       public: virtual [01;36m[Kstd[m[K::optional<sdf::SemanticPose> SDFSemanticPose()
+[9.792s]       |                       [01;36m[K^~~[m[K
+[9.804s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:9[m[K,
+[9.804s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24[m[K:
+[9.804s] [01m[K/usr/include/gazebo-11/gazebo/physics/Collision.hh:205:28:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[9.804s]   205 |       public: virtual std::[01;31m[Koptional[m[K<sdf::SemanticPose> SDFSemanticPose()
+[9.805s]       |                            [01;31m[K^~~~~~~~[m[K
+[9.805s] [01m[K/usr/include/gazebo-11/gazebo/physics/Collision.hh:205:23:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[9.805s]   205 |       public: virtual [01;36m[Kstd[m[K::optional<sdf::SemanticPose> SDFSemanticPose()
+[9.805s]       |                       [01;36m[K^~~[m[K
+[9.850s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:26[m[K,
+[9.850s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24[m[K:
+[9.850s] [01m[K/usr/include/gazebo-11/gazebo/physics/Light.hh:78:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[9.850s]    78 |       public: std::[01;31m[Koptional[m[K<sdf::SemanticPose> SDFSemanticPose() const override;
+[9.850s]       |                    [01;31m[K^~~~~~~~[m[K
+[9.850s] [01m[K/usr/include/gazebo-11/gazebo/physics/Light.hh:78:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[9.851s]    78 |       public: [01;36m[Kstd[m[K::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+[9.851s]       |               [01;36m[K^~~[m[K
+[9.861s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:28[m[K,
+[9.861s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24[m[K:
+[9.861s] [01m[K/usr/include/gazebo-11/gazebo/physics/Link.hh:617:20:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[9.861s]   617 |       public: std::[01;31m[Koptional[m[K<sdf::SemanticPose> SDFSemanticPose() const override;
+[9.861s]       |                    [01;31m[K^~~~~~~~[m[K
+[9.861s] [01m[K/usr/include/gazebo-11/gazebo/physics/Link.hh:617:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[9.861s]   617 |       public: [01;36m[Kstd[m[K::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+[9.861s]       |               [01;36m[K^~~[m[K
+[9.888s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:36[m[K,
+[9.888s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:24[m[K:
+[9.888s] [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:[m[K In static member function ‘[01m[Kstatic T gazebo::physics::PhysicsEngine::any_cast(const boost::any&)[m[K’:
+[9.888s] [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[9.888s]   274 |           auto value = boost::any_cast<std::[01;31m[Kany[m[K>(_value);
+[9.888s]       |                                             [01;31m[K^~~[m[K
+[9.888s] [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::any[m[K’ is only available from C++17 onwards
+[9.888s] [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kany[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[9.888s] [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::any[m[K’ is only available from C++17 onwards
+[9.888s] [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kany_cast[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[9.888s]   275 |           return std::[01;31m[Kany_cast[m[K<T>(value);
+[9.888s]       |                       [01;31m[K^~~~~~~~[m[K
+[9.888s] [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:23:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::any_cast[m[K’ is only available from C++17 onwards
+[9.888s] [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[9.888s]   275 |           return std::any_cast<T[01;31m[K>[m[K(value);
+[9.888s]       |                                 [01;31m[K^[m[K
+[11.401s] In file included from [01m[K/usr/include/sdformat-9.8/sdf/Element.hh:28[m[K,
+[11.401s]                  from [01m[K/usr/include/sdformat-9.8/sdf/Actor.hh:25[m[K,
+[11.401s]                  from [01m[K/usr/include/sdformat-9.8/sdf/sdf.hh:2[m[K,
+[11.401s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:25[m[K,
+[11.401s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+[11.401s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+[11.401s]                  from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+[11.401s]                  from [01m[K/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/enpm673_final_proj/src/animated_box.cpp:22[m[K:
+[11.401s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K In member function ‘[01m[Kstd::string sdf::v9::ParamPrivate::TypeToString() const [with T = ignition::math::v6::Pose3<double>][m[K’:
+[11.401s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:320:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[11.401s]   320 |   [01;35m[K}[m[K
+[11.402s]       |   [01;35m[K^[m[K
+[11.405s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:[m[K In member function ‘[01m[Kstd::string sdf::v9::ParamPrivate::TypeToString() const [with T = double][m[K’:
+[11.406s] [01m[K/usr/include/sdformat-9.8/sdf/Param.hh:320:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[11.406s]   320 |   [01;35m[K}[m[K
+[11.406s]       |   [01;35m[K^[m[K
+[11.561s] make[2]: *** [CMakeFiles/animated_box.dir/build.make:76: CMakeFiles/animated_box.dir/src/animated_box.cpp.o] Error 1
+[11.561s] make[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/animated_box.dir/all] Error 2
+[11.561s] make: *** [Makefile:146: all] Error 2
+[11.581s] Invoked command in '/home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Documents/GitHub/ENPM673_turtlebot_perception_challenge/build/enpm673_final_proj -- -j8 -l8

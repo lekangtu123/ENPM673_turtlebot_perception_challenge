@@ -1,0 +1,4 @@
+source;share/enpm673_final_proj/local_setup.bash
+source;share/enpm673_final_proj/local_setup.dsv
+source;share/enpm673_final_proj/local_setup.sh
+source;share/enpm673_final_proj/local_setup.zsh
